@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Conditioner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/ConditionerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/ConditionerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,8 +40,33 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.netology.domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConditionerTest">
+    <configuration name="ConditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SmartHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConditionerTest.shouldCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -57,8 +83,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConditionerTest.shouldInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SmartHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionerTest" />
+      <option name="METHOD_NAME" value="shouldInit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionerTest.shouldThrowNpe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SmartHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionerTest" />
+      <option name="METHOD_NAME" value="shouldThrowNpe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConditionerTest" />
+        <item itemvalue="JUnit.ConditionerTest.shouldThrowNpe" />
+        <item itemvalue="JUnit.ConditionerTest.shouldInit" />
         <item itemvalue="JUnit.ConditionerTest.shouldCreate" />
       </list>
     </recent_temporary>
@@ -93,19 +154,78 @@
       <option name="project" value="LOCAL" />
       <updated>1605523837946</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create conditioner and ConditionerTest">
+      <created>1605525777862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605525777862</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="update gitignore" />
     <MESSAGE value="update POM.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update POM.xml" />
+    <MESSAGE value="create conditioner and ConditionerTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="create conditioner and ConditionerTest" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1605524442328">
+    <state x="409" y="419" key="#xdebugger.evaluate" timestamp="1605532828723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605524442328" />
+    <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1605530951900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605530951900" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1605530951899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605530951899" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1605530951899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605530951899" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1605530951900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605530951900" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605530953211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605530953211" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1605530953211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605530953211" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1605530953211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605530953211" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1605530953211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605530953211" />
+    <state x="681" y="261" width="570" height="524" key="StructurePopup" timestamp="1605530281157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="570" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605530281157" />
+    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605525319213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605525319213" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
