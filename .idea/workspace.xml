@@ -3,8 +3,18 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605601489659</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="unmarked">
+      <created>1605601541050</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605601541050</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,29 +211,30 @@
     <MESSAGE value="create conditioner and ConditionerTest" />
     <MESSAGE value="вшыфидув" />
     <MESSAGE value="shouldChangeField" />
-    <option name="LAST_COMMIT_MESSAGE" value="shouldChangeField" />
+    <MESSAGE value="unmarked" />
+    <option name="LAST_COMMIT_MESSAGE" value="unmarked" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="419" key="#xdebugger.evaluate" timestamp="1605532828723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1605533315999">
+    <state width="1852" height="290" key="GridCell.Tab.0.bottom" timestamp="1605604818601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605533315999" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1605533315999">
+    <state width="1852" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605604818601" />
+    <state width="1852" height="290" key="GridCell.Tab.0.center" timestamp="1605604818601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605533315999" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1605533315999">
+    <state width="1852" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605604818601" />
+    <state width="1852" height="290" key="GridCell.Tab.0.left" timestamp="1605604818601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605533315999" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1605533315999">
+    <state width="1852" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605604818601" />
+    <state width="1852" height="290" key="GridCell.Tab.0.right" timestamp="1605604818601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605533315999" />
+    <state width="1852" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605604818601" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605533315999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -241,14 +259,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605525319213" />
+    <state x="604" y="244" key="run.anything.popup" timestamp="1605604677109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="604" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605604677109" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="5" />
+          <line>7</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

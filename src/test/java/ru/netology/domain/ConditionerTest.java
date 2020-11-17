@@ -8,11 +8,10 @@ import static org.junit.jupiter.api.Assertions.*;
 class ConditionerTest {
     @Test
     public void shouldCreate() {
-        Conditioner conditioner1 = new Conditioner();
-        Conditioner conditioner2 = new Conditioner();
-        Conditioner conditioner3 = new Conditioner();
+        Conditioner conditioner = new Conditioner();
 
-        conditioner1.currentTemperature = 25;
+
+        conditioner.currentTemperature = 25;
 
         System.out.println("Hi!");
     }
@@ -29,6 +28,7 @@ class ConditionerTest {
 
         System.out.println("Hi!");
     }
+
     @Disabled
     @Test
 
