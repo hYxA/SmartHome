@@ -15,10 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerAdvancedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerAdvancedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/domain/ConditionerAdvanced.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/domain/ConditionerAdvanced.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/ConditionerAdvancedTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/ConditionerAdvancedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/ConditionerAdvancedTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionerAdvancedTest.shouldChangeField">
+  <component name="RunManager" selected="JUnit.ConditionerAdvancedTest">
     <configuration name="ConditionerAdvancedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -146,9 +144,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConditionerAdvancedTest" />
         <item itemvalue="JUnit.ConditionerAdvancedTest.shouldChangeField" />
         <item itemvalue="JUnit.ConditionerAdvancedTest.shouldCreate" />
-        <item itemvalue="JUnit.ConditionerAdvancedTest" />
         <item itemvalue="JUnit.ConditionerTest" />
         <item itemvalue="JUnit.ConditionerTest.shouldThrowNpe" />
       </list>
@@ -233,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605606481838</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="shuldChangeField at ConditionerAdvancedTest">
+      <created>1605607055139</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605607055139</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,38 +275,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1852" height="347" key="GridCell.Tab.0.bottom" timestamp="1605606929431">
+    <state width="1852" height="290" key="GridCell.Tab.0.bottom" timestamp="1605611349629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605606929431" />
-    <state width="1852" height="347" key="GridCell.Tab.0.center" timestamp="1605606929430">
+    <state width="1852" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605611349629" />
+    <state width="1852" height="290" key="GridCell.Tab.0.center" timestamp="1605611349628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605606929430" />
-    <state width="1852" height="347" key="GridCell.Tab.0.left" timestamp="1605606929430">
+    <state width="1852" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605611349628" />
+    <state width="1852" height="290" key="GridCell.Tab.0.left" timestamp="1605611349628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605606929430" />
-    <state width="1852" height="347" key="GridCell.Tab.0.right" timestamp="1605606929431">
+    <state width="1852" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605611349628" />
+    <state width="1852" height="290" key="GridCell.Tab.0.right" timestamp="1605611349629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605606929431" />
-    <state width="1852" height="347" key="GridCell.Tab.1.bottom" timestamp="1605606929431">
+    <state width="1852" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605611349629" />
+    <state width="1852" height="347" key="GridCell.Tab.1.bottom" timestamp="1605607348665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605606929431" />
-    <state width="1852" height="347" key="GridCell.Tab.1.center" timestamp="1605606929431">
+    <state width="1852" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605607348665" />
+    <state width="1852" height="347" key="GridCell.Tab.1.center" timestamp="1605607348664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605606929431" />
-    <state width="1852" height="347" key="GridCell.Tab.1.left" timestamp="1605606929431">
+    <state width="1852" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605607348664" />
+    <state width="1852" height="347" key="GridCell.Tab.1.left" timestamp="1605607348664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605606929431" />
-    <state width="1852" height="347" key="GridCell.Tab.1.right" timestamp="1605606929431">
+    <state width="1852" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605607348664" />
+    <state width="1852" height="347" key="GridCell.Tab.1.right" timestamp="1605607348665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605606929431" />
+    <state width="1852" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605607348665" />
     <state x="681" y="261" width="570" height="524" key="StructurePopup" timestamp="1605530281157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -318,5 +323,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="604" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605604677109" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerAdvancedTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerAdvancedTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
