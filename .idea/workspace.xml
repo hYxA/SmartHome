@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionerTest.shouldThrowNpe">
+  <component name="RunManager" selected="JUnit.ConditionerTest">
     <configuration name="ConditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -115,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConditionerTest.shouldThrowNpe" />
         <item itemvalue="JUnit.ConditionerTest" />
+        <item itemvalue="JUnit.ConditionerTest.shouldThrowNpe" />
         <item itemvalue="JUnit.ConditionerTest.shouldInit" />
         <item itemvalue="JUnit.ConditionerTest.shouldCreate" />
       </list>
@@ -166,8 +166,26 @@
       <option name="project" value="LOCAL" />
       <updated>1605533292623</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="shouldChangeField">
+      <created>1605601489659</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605601489659</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -175,7 +193,8 @@
     <MESSAGE value="update POM.xml" />
     <MESSAGE value="create conditioner and ConditionerTest" />
     <MESSAGE value="вшыфидув" />
-    <option name="LAST_COMMIT_MESSAGE" value="вшыфидув" />
+    <MESSAGE value="shouldChangeField" />
+    <option name="LAST_COMMIT_MESSAGE" value="shouldChangeField" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="419" key="#xdebugger.evaluate" timestamp="1605532828723">

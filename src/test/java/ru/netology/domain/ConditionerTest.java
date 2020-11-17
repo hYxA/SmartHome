@@ -29,9 +29,9 @@ class ConditionerTest {
 
         System.out.println("Hi!");
     }
-
-    @Test
     @Disabled
+    @Test
+
     public void shouldThrowNpe() {
         Conditioner conditioner = new Conditioner();
 
