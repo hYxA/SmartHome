@@ -40,4 +40,16 @@ class ConditionerTest {
 
         System.out.println("Hi!");
     }
+
+    @Test
+    public void shouldChangeField() {
+        Conditioner conditioner = new Conditioner();
+
+        assertEquals(0, conditioner.currentTemperature);
+        conditioner.currentTemperature = -100;
+        assertEquals(-100, conditioner.currentTemperature);
+
+
+        System.out.println("Hi!");
+    }
 }
