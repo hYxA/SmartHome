@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-class ConditionerAdvancedTest {
+class ConditionTest {
 
 
     @Test
     public void shouldCreate() {
-        ConditionerAdvanced conditioner = new ConditionerAdvanced();
+        Condition conditioner = new Condition();
         String expectedName = "Кондёр";
 
         assertNull(conditioner.getName());
@@ -24,7 +24,7 @@ class ConditionerAdvancedTest {
 
     @Test
     public void shouldChangeField() {
-        ConditionerAdvanced conditioner = new ConditionerAdvanced();
+        Condition conditioner = new Condition();
 
         assertEquals(0, conditioner.getCurrentTemperature());
         conditioner.setCurrentTemperature(25);
@@ -36,13 +36,26 @@ class ConditionerAdvancedTest {
 
     @Test
     public void shouldNotChangeField() {
-        ConditionerAdvanced conditioner = new ConditionerAdvanced();
+        Condition condition = new Condition();
 
-        assertEquals(0, conditioner.getCurrentTemperature());
-        conditioner.setCurrentTemperature(0);
-        assertEquals(0, conditioner.getCurrentTemperature());
+        assertEquals(0, condition.getCurrentTemperature());
+        condition.setCurrentTemperature(0);
+        assertEquals(0, condition.getCurrentTemperature());
 
 
         System.out.println("Hi!");
+    }
+
+    @Test
+    public void increaseCurrentTemperature( {
+        Condition condition = new Condition;
+
+
+
+    }
+
+    @Test
+    public void decreaseCurrentTemperature(){
+
     }
 }

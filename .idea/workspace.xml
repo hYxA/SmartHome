@@ -14,7 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Conditioner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerAdvancedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +68,8 @@
       <recent name="C:\Users\ПКТ\IdeaProjects\SmartHome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionerAdvancedTest">
-    <configuration name="ConditionerAdvancedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="ConditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
         <pattern>
@@ -74,13 +78,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionerAdvancedTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionerAdvancedTest.shouldChangeField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionTest.shouldChangeField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
         <pattern>
@@ -89,14 +93,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionerAdvancedTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
       <option name="METHOD_NAME" value="shouldChangeField" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionerAdvancedTest.shouldCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionTest.shouldCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +109,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionerAdvancedTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
       <option name="METHOD_NAME" value="shouldCreate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -145,9 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConditionerAdvancedTest" />
-        <item itemvalue="JUnit.ConditionerAdvancedTest.shouldChangeField" />
-        <item itemvalue="JUnit.ConditionerAdvancedTest.shouldCreate" />
+        <item itemvalue="JUnit.ConditionTest" />
+        <item itemvalue="JUnit.ConditionTest.shouldChangeField" />
+        <item itemvalue="JUnit.ConditionTest.shouldCreate" />
         <item itemvalue="JUnit.ConditionerTest" />
         <item itemvalue="JUnit.ConditionerTest.shouldThrowNpe" />
       </list>
@@ -253,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605620000527</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update pom.xml">
+      <created>1605620258822</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605620258822</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,13 +292,22 @@
     <MESSAGE value="shuldChangeField at ConditionerAdvancedTest" />
     <MESSAGE value="end lesson" />
     <MESSAGE value="refactor .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor .gitignore" />
+    <MESSAGE value="update pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1605605397692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605605397692" />
+    <state x="637" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605620382801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="637" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605620382801" />
+    <state x="678" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605620297646">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="678" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605620297646" />
     <state x="409" y="419" key="#xdebugger.evaluate" timestamp="1605532828723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -345,37 +365,37 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerAdvancedTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
           <line>29</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerAdvancedTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
           <line>30</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
           <line>30</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
           <line>31</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
           <line>33</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
           <line>34</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
           <line>37</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>

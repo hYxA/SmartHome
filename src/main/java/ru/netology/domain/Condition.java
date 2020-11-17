@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class ConditionerAdvanced {
+public class Condition {
     private String name;
     private int maxTemperature;
     private int minTemperature;
