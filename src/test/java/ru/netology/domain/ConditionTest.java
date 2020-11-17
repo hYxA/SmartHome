@@ -47,8 +47,8 @@ class ConditionTest {
     }
 
     @Test
-    public void increaseCurrentTemperature( {
-        Condition condition = new Condition;
+    public void increaseCurrentTemperature() {
+        Condition condition = new Condition();
 
 
 
