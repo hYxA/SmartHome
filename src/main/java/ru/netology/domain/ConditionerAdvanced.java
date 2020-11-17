@@ -28,6 +28,13 @@ public class ConditionerAdvanced {
     }
 
     public void setMinTemperature(int minTemperature) {
+        if (currentTemperature > maxTemperature) {
+            return;
+        }
+        if (currentTemperature < minTemperature) {
+            return;                                  // завершает выполнение функции
+        }
+        // здесь уверены, что все проверки прошли
         this.minTemperature = minTemperature;
     }
 
