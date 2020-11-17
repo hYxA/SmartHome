@@ -14,9 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerAdvancedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerAdvancedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/ConditionerAdvancedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/netology/domain/ConditionerAdvancedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +59,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ПКТ\IdeaProjects\SmartHome" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ConditionerAdvancedTest">
@@ -238,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605607055139</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="end lesson">
+      <created>1605619985309</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605619985333</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor .gitignore">
+      <created>1605620000527</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605620000527</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +279,9 @@
     <MESSAGE value="add Getters and Setters" />
     <MESSAGE value="add ConditionerAdvancedTest" />
     <MESSAGE value="shuldChangeField at ConditionerAdvancedTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="shuldChangeField at ConditionerAdvancedTest" />
+    <MESSAGE value="end lesson" />
+    <MESSAGE value="refactor .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1605605397692">
@@ -275,22 +292,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1852" height="290" key="GridCell.Tab.0.bottom" timestamp="1605611349629">
+    <state width="1852" height="290" key="GridCell.Tab.0.bottom" timestamp="1605620025228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605611349629" />
-    <state width="1852" height="290" key="GridCell.Tab.0.center" timestamp="1605611349628">
+    <state width="1852" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605620025228" />
+    <state width="1852" height="290" key="GridCell.Tab.0.center" timestamp="1605620025228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605611349628" />
-    <state width="1852" height="290" key="GridCell.Tab.0.left" timestamp="1605611349628">
+    <state width="1852" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605620025228" />
+    <state width="1852" height="290" key="GridCell.Tab.0.left" timestamp="1605620025228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605611349628" />
-    <state width="1852" height="290" key="GridCell.Tab.0.right" timestamp="1605611349629">
+    <state width="1852" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605620025228" />
+    <state width="1852" height="290" key="GridCell.Tab.0.right" timestamp="1605620025228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605611349629" />
+    <state width="1852" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605620025228" />
     <state width="1852" height="347" key="GridCell.Tab.1.bottom" timestamp="1605607348665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
