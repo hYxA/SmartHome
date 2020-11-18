@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 class ConditionTest {
-int expectedTemperature = 25;
+    int expectedTemperature = 25;
 
     @Test
     public void shouldCreate() {
@@ -49,25 +49,31 @@ int expectedTemperature = 25;
     @Test
     public void shouldIncreaseCurrentTemperature() {
         Condition condition = new Condition();
-        if (condition.getCurrentTemperature() == condition.getMaxTemperature()) {
-            return;
-        }
+
 
         int expectDifference = 1;
         condition.increaseCurrentTemperature();
-        assertEquals( expectDifference, condition.difference);
+        assertEquals(expectDifference, condition.difference);
     }
 
     @Test
     public void shouldDecreaseCurrentTemperature() {
         Condition condition = new Condition();
-        if (condition.getCurrentTemperature() == condition.getMinTemperature()) {
-            return;
-        }
+
 
         int expectDifference = 1;
         condition.decreaseCurrentTemperature();
-        assertEquals( expectDifference, condition.difference);
+        assertEquals(expectDifference, condition.difference);
+    }
+
+    @Test
+    public void shouldDecreaseCurrentTemperature2() {
+        Condition condition = new Condition();
+        condition.setCurrentTemperature(16);
+        int expectDifference = 1;
+
+        condition.decreaseCurrentTemperature();
+        assertEquals(expectDifference, condition.difference);
     }
 
     @Test
@@ -84,5 +90,16 @@ int expectedTemperature = 25;
         condition.setMinTemperature(15);
         assertEquals(15, condition.getMinTemperature());
 
+    }
+
+    @Test
+    public void shouldNotSetCurrentTemperature() {
+        Condition condition = new Condition();
+
+        condition.setCurrentTemperature(40);
+        assertEquals(expectedTemperature, condition.getCurrentTemperature());
+
+        condition.setCurrentTemperature(10);
+        assertEquals(expectedTemperature, condition.getCurrentTemperature());
     }
 }
