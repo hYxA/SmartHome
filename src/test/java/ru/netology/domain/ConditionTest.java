@@ -77,4 +77,12 @@ int expectedTemperature = 25;
         assertEquals(35, condition.getMaxTemperature());
 
     }
+
+    @Test
+    public void shouldSetMinTemperature() {
+        Condition condition = new Condition();
+        condition.setMinTemperature(15);
+        assertEquals(15, condition.getMinTemperature());
+
+    }
 }
