@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 class ConditionTest {
-
+int expectedTemperature = 25;
 
     @Test
     public void shouldCreate() {
@@ -26,9 +26,9 @@ class ConditionTest {
     public void shouldChangeField() {
         Condition conditioner = new Condition();
 
-        assertEquals(0, conditioner.getCurrentTemperature());
-        conditioner.setCurrentTemperature(25);
-        assertEquals(25, conditioner.getCurrentTemperature());
+        assertEquals(expectedTemperature, conditioner.getCurrentTemperature());
+        conditioner.setCurrentTemperature(26);
+        assertEquals(26, conditioner.getCurrentTemperature());
 
 
         System.out.println("Hi!");
@@ -38,9 +38,9 @@ class ConditionTest {
     public void shouldNotChangeField() {
         Condition condition = new Condition();
 
-        assertEquals(0, condition.getCurrentTemperature());
+        assertEquals(expectedTemperature, condition.getCurrentTemperature());
         condition.setCurrentTemperature(0);
-        assertEquals(0, condition.getCurrentTemperature());
+        assertEquals(expectedTemperature, condition.getCurrentTemperature());
 
 
         System.out.println("Hi!");
