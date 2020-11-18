@@ -51,6 +51,10 @@
                     <execution>
                         <id>jacoco-check</id>
                         <configuration>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>check</goal>
+                            </goals>
                             <rules>
                                 <rule>
                                     <limits>

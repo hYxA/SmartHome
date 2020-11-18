@@ -67,10 +67,10 @@ class ConditionTest {
     }
 
     @Test
-    public void shouldDecreaseCurrentTemperature2() {
+    public void shouldNotDecreaseCurrentTemperature() {
         Condition condition = new Condition();
         condition.setCurrentTemperature(16);
-        int expectDifference = 1;
+        int expectDifference = 0;
 
         condition.decreaseCurrentTemperature();
         assertEquals(expectDifference, condition.difference);
