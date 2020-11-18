@@ -69,4 +69,12 @@ int expectedTemperature = 25;
         condition.decreaseCurrentTemperature();
         assertEquals( expectDifference, condition.difference);
     }
+
+    @Test
+    public void shouldSetMaxTemperature() {
+        Condition condition = new Condition();
+        condition.setMaxTemperature(35);
+        assertEquals(35, condition.getMaxTemperature());
+
+    }
 }
