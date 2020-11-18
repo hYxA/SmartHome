@@ -57,6 +57,16 @@ class ConditionTest {
     }
 
     @Test
+    public void shouldNotIncreaseCurrentTemperature() {
+        Condition condition = new Condition();
+        condition.setCurrentTemperature(40);
+        int expectDifference = 0;
+
+        condition.decreaseCurrentTemperature();
+        assertEquals(expectDifference, condition.difference);
+    }
+
+    @Test
     public void shouldDecreaseCurrentTemperature() {
         Condition condition = new Condition();
 
