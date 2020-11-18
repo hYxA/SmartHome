@@ -39,6 +39,7 @@
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.5</version>
                 <executions>
+
                     <execution>
                         <!-- приготовит агенты gmail для отслеживания вызова кода -->
                         <id>prepare-agent</id>
@@ -49,7 +50,6 @@
 
                     <execution>
                         <id>jacoco-check</id>
-
                         <configuration>
                             <rules>
                                 <rule>
@@ -64,6 +64,7 @@
                             </rules>
                         </configuration>
                     </execution>
+
                     <execution>
                         <id>jacoco-site</id>
                         <phase>verify</phase>
@@ -72,8 +73,6 @@
                         </goals>
                     </execution>
                 </executions>
-
-
             </plugin>
         </plugins>
     </build>

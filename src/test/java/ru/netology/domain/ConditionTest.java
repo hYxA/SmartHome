@@ -47,20 +47,26 @@ class ConditionTest {
     }
 
     @Test
-    public void increaseCurrentTemperature() {
+    public void shouldIncreaseCurrentTemperature() {
         Condition condition = new Condition();
         if (condition.getCurrentTemperature() == condition.getMaxTemperature()) {
             return;
         }
-        assertEquals( 0, condition.difference);
+
+        int expectDifference = 1;
+        condition.increaseCurrentTemperature();
+        assertEquals( expectDifference, condition.difference);
     }
 
     @Test
-    public void decreaseCurrentTemperature() {
+    public void shouldDecreaseCurrentTemperature() {
         Condition condition = new Condition();
         if (condition.getCurrentTemperature() == condition.getMinTemperature()) {
             return;
         }
-        assertEquals( 0, condition.difference);
+
+        int expectDifference = 1;
+        condition.decreaseCurrentTemperature();
+        assertEquals( expectDifference, condition.difference);
     }
 }
