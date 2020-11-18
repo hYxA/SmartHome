@@ -28,7 +28,7 @@ class ConditionTest {
 
         assertEquals(0, conditioner.getCurrentTemperature());
         conditioner.setCurrentTemperature(25);
-        assertEquals(0, conditioner.getCurrentTemperature());
+        assertEquals(25, conditioner.getCurrentTemperature());
 
 
         System.out.println("Hi!");
@@ -52,7 +52,7 @@ class ConditionTest {
         if (condition.getCurrentTemperature() == condition.getMaxTemperature()) {
             return;
         }
-        assertEquals((condition.getOldTemperature() + 1), condition.getCurrentTemperature());
+        assertEquals( 0, condition.difference);
     }
 
     @Test
@@ -61,6 +61,6 @@ class ConditionTest {
         if (condition.getCurrentTemperature() == condition.getMinTemperature()) {
             return;
         }
-        assertEquals((condition.getOldTemperature() - 1), condition.getCurrentTemperature());
+        assertEquals( 0, condition.difference);
     }
 }

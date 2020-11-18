@@ -2,11 +2,12 @@ package ru.netology.domain;
 
 public class Condition {
     private String name;
-    private int maxTemperature;
-    private int minTemperature;
+    private int maxTemperature = 32;
+    private int minTemperature = 16;
     private int currentTemperature;
     private boolean on;
     private int oldTemperature;
+    int difference;
 
     public String getName() {
         return name;
@@ -63,6 +64,7 @@ public class Condition {
         }
         oldTemperature = condition.getCurrentTemperature();
         condition.setCurrentTemperature(condition.getCurrentTemperature() + 1);
+        difference = condition.getCurrentTemperature() - oldTemperature;
 
     }
 
@@ -73,6 +75,7 @@ public class Condition {
         }
         oldTemperature = condition.getCurrentTemperature();
         condition.setCurrentTemperature(condition.getCurrentTemperature() - 1);
+        difference = oldTemperature - condition.getCurrentTemperature();
 
     }
 }
