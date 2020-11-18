@@ -6,6 +6,7 @@ public class Condition {
     private int minTemperature;
     private int currentTemperature;
     private boolean on;
+    private int oldTemperature;
 
     public String getName() {
         return name;
@@ -27,7 +28,16 @@ public class Condition {
         return minTemperature;
     }
 
-    public void setMinTemperature(int minTemperature) {
+    public void setMinTemperature(int minTemperature) { this.minTemperature = minTemperature; }
+
+    public int getCurrentTemperature() { return currentTemperature; }
+
+    public int getOldTemperature() {
+        return oldTemperature;
+    }
+
+
+    public void setCurrentTemperature(int currentTemperature) {
         if (currentTemperature > maxTemperature) {
             return;
         }
@@ -35,14 +45,6 @@ public class Condition {
             return;                                  // завершает выполнение функции
         }
         // здесь уверены, что все проверки прошли
-        this.minTemperature = minTemperature;
-    }
-
-    public int getCurrentTemperature() {
-        return currentTemperature;
-    }
-
-    public void setCurrentTemperature(int currentTemperature) {
         this.currentTemperature = currentTemperature;
     }
 
@@ -52,5 +54,25 @@ public class Condition {
 
     public void setOn(boolean on) {
         this.on = on;
+    }
+
+    public void increaseCurrentTemperature() {
+        Condition condition = new Condition();
+        if (condition.getCurrentTemperature() == condition.getMaxTemperature()) {
+            return;
+        }
+        oldTemperature = condition.getCurrentTemperature();
+        condition.setCurrentTemperature(condition.getCurrentTemperature() + 1);
+
+    }
+
+    public void decreaseCurrentTemperature() {
+        Condition condition = new Condition();
+        if (condition.getCurrentTemperature() == condition.getMinTemperature()) {
+            return;
+        }
+        oldTemperature = condition.getCurrentTemperature();
+        condition.setCurrentTemperature(condition.getCurrentTemperature() - 1);
+
     }
 }

@@ -15,10 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Conditioner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/ConditionerAdvanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerAdvancedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="C:\Users\ПКТ\IdeaProjects\SmartHome" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ConditionTest">
     <configuration name="ConditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -264,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605620258822</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add new tests">
+      <created>1605620946377</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605620946377</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update ConditionTest">
+      <created>1605621017253</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605621017253</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +289,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -293,7 +306,9 @@
     <MESSAGE value="end lesson" />
     <MESSAGE value="refactor .gitignore" />
     <MESSAGE value="update pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pom.xml" />
+    <MESSAGE value="add new tests" />
+    <MESSAGE value="update ConditionTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ConditionTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1605605397692">
@@ -312,42 +327,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1852" height="290" key="GridCell.Tab.0.bottom" timestamp="1605620025228">
+    <state width="1852" height="347" key="GridCell.Tab.0.bottom" timestamp="1605621034926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605620025228" />
-    <state width="1852" height="290" key="GridCell.Tab.0.center" timestamp="1605620025228">
+    <state width="1852" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034926" />
+    <state width="1852" height="347" key="GridCell.Tab.0.center" timestamp="1605621034916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605620025228" />
-    <state width="1852" height="290" key="GridCell.Tab.0.left" timestamp="1605620025228">
+    <state width="1852" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034916" />
+    <state width="1852" height="347" key="GridCell.Tab.0.left" timestamp="1605621034916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605620025228" />
-    <state width="1852" height="290" key="GridCell.Tab.0.right" timestamp="1605620025228">
+    <state width="1852" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034916" />
+    <state width="1852" height="347" key="GridCell.Tab.0.right" timestamp="1605621034926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605620025228" />
-    <state width="1852" height="347" key="GridCell.Tab.1.bottom" timestamp="1605607348665">
+    <state width="1852" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034926" />
+    <state width="1852" height="347" key="GridCell.Tab.1.bottom" timestamp="1605621034927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605607348665" />
-    <state width="1852" height="347" key="GridCell.Tab.1.center" timestamp="1605607348664">
+    <state width="1852" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034927" />
+    <state width="1852" height="347" key="GridCell.Tab.1.center" timestamp="1605621034926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605607348664" />
-    <state width="1852" height="347" key="GridCell.Tab.1.left" timestamp="1605607348664">
+    <state width="1852" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034926" />
+    <state width="1852" height="347" key="GridCell.Tab.1.left" timestamp="1605621034926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605607348664" />
-    <state width="1852" height="347" key="GridCell.Tab.1.right" timestamp="1605607348665">
+    <state width="1852" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034926" />
+    <state width="1852" height="347" key="GridCell.Tab.1.right" timestamp="1605621034927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605607348665" />
+    <state width="1852" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034927" />
     <state x="681" y="261" width="570" height="524" key="StructurePopup" timestamp="1605530281157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="570" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605530281157" />
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1605621023379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605621023379" />
+    <state x="554" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605620747519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="554" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605620747519" />
     <state x="600" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605605041731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -373,31 +396,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
           <line>30</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
