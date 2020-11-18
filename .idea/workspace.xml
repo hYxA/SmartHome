@@ -13,11 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -276,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605621017253</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added increase and decrease">
+      <created>1605686369120</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605686369120</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,7 +311,8 @@
     <MESSAGE value="update pom.xml" />
     <MESSAGE value="add new tests" />
     <MESSAGE value="update ConditionTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ConditionTest" />
+    <MESSAGE value="added increase and decrease" />
+    <option name="LAST_COMMIT_MESSAGE" value="added increase and decrease" />
   </component>
   <component name="WindowStateProjectService">
     <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1605605397692">
@@ -327,46 +331,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1852" height="347" key="GridCell.Tab.0.bottom" timestamp="1605621034926">
+    <state width="1852" height="344" key="GridCell.Tab.0.bottom" timestamp="1605686305022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034926" />
-    <state width="1852" height="347" key="GridCell.Tab.0.center" timestamp="1605621034916">
+    <state width="1852" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605686305022" />
+    <state width="1852" height="344" key="GridCell.Tab.0.center" timestamp="1605686305022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034916" />
-    <state width="1852" height="347" key="GridCell.Tab.0.left" timestamp="1605621034916">
+    <state width="1852" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605686305022" />
+    <state width="1852" height="344" key="GridCell.Tab.0.left" timestamp="1605686305021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034916" />
-    <state width="1852" height="347" key="GridCell.Tab.0.right" timestamp="1605621034926">
+    <state width="1852" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605686305021" />
+    <state width="1852" height="344" key="GridCell.Tab.0.right" timestamp="1605686305022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034926" />
-    <state width="1852" height="347" key="GridCell.Tab.1.bottom" timestamp="1605621034927">
+    <state width="1852" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605686305022" />
+    <state width="1852" height="344" key="GridCell.Tab.1.bottom" timestamp="1605686305022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034927" />
-    <state width="1852" height="347" key="GridCell.Tab.1.center" timestamp="1605621034926">
+    <state width="1852" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605686305022" />
+    <state width="1852" height="344" key="GridCell.Tab.1.center" timestamp="1605686305022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034926" />
-    <state width="1852" height="347" key="GridCell.Tab.1.left" timestamp="1605621034926">
+    <state width="1852" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605686305022" />
+    <state width="1852" height="344" key="GridCell.Tab.1.left" timestamp="1605686305022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034926" />
-    <state width="1852" height="347" key="GridCell.Tab.1.right" timestamp="1605621034927">
+    <state width="1852" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605686305022" />
+    <state width="1852" height="344" key="GridCell.Tab.1.right" timestamp="1605686305022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605621034927" />
+    <state width="1852" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605686305022" />
     <state x="681" y="261" width="570" height="524" key="StructurePopup" timestamp="1605530281157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="570" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605530281157" />
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1605621023379">
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1605686373202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605621023379" />
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605686373202" />
     <state x="554" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605620747519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -383,21 +387,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="604" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605604677109" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
