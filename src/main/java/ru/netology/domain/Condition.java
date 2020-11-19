@@ -4,12 +4,12 @@ public class Condition {
     private String name;
     private int maxTemperature = 32;
     private int minTemperature = 16;
-    private int currentTemperature = 25;
+    private int currentTemperature;
     private boolean on;
     private int oldTemperature;
     int difference;
 
-    Condition condition = new Condition();
+   // Condition condition = new Condition();
 
     public String getName() {
         return name;
@@ -45,6 +45,8 @@ public class Condition {
 
 
     public void setCurrentTemperature(int currentTemperature) {
+        Condition condition = new Condition();
+
         if (currentTemperature > maxTemperature) {
             return;
         }
@@ -64,25 +66,29 @@ public class Condition {
     }
 
     public int increaseCurrentTemperature() {
-        if (condition.getCurrentTemperature() == condition.getMaxTemperature()) {
-            return difference;
+        Condition condition = new Condition();
+
+        if (currentTemperature == maxTemperature) {
+            return difference = 0;
         }
 
         oldTemperature = currentTemperature;
         currentTemperature += 1;
-        difference = oldTemperature - condition.getCurrentTemperature();
+        difference = currentTemperature - oldTemperature;
         return difference;
 
     }
 
     public int decreaseCurrentTemperature() {
-        if (condition.getCurrentTemperature() == condition.getMinTemperature()) {
-            return difference;
+        Condition condition = new Condition();
+
+        if (currentTemperature == minTemperature) {
+            return difference = 0;
         }
 
         oldTemperature = currentTemperature;
         currentTemperature -= 1;
-        difference = oldTemperature - condition.getCurrentTemperature();
+        difference = oldTemperature - currentTemperature;
         return difference;
 
 
