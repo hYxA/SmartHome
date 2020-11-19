@@ -73,7 +73,7 @@ public class Condition {
         }
 
         oldTemperature = currentTemperature;
-        currentTemperature += 1;
+        currentTemperature += 1; // поменял на переменную непосредственно
         difference = currentTemperature - oldTemperature;
         return difference;
 
@@ -87,10 +87,9 @@ public class Condition {
         }
 
         oldTemperature = currentTemperature;
-        currentTemperature -= 1;
+        currentTemperature -= 1; // поменял на переменную непосредственно
         difference = oldTemperature - currentTemperature;
         return difference;
-
 
     }
 }
