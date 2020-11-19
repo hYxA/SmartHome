@@ -362,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605706063444</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update ConditionTest.java">
+      <created>1605772314492</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605772314492</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +385,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update POM.xml" />
     <MESSAGE value="create conditioner and ConditionerTest" />
     <MESSAGE value="вшыфидув" />
     <MESSAGE value="shouldChangeField" />
@@ -403,7 +409,8 @@
     <MESSAGE value="added test shouldNotDecreaseCurrentTemperature" />
     <MESSAGE value="added test shouldNotIncreaseCurrentTemperature" />
     <MESSAGE value="end for 18.11." />
-    <option name="LAST_COMMIT_MESSAGE" value="end for 18.11." />
+    <MESSAGE value="update ConditionTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ConditionTest.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
@@ -496,7 +503,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>50</line>
+          <line>48</line>
           <properties class="ru.netology.domain.ConditionTest" method="shouldIncreaseCurrentTemperature">
             <option name="EMULATED" value="true" />
           </properties>

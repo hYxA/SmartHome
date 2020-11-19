@@ -19,7 +19,6 @@ class ConditionTest {
 
         assertEquals(expectedName, condition.getName());
 
-
         System.out.println("Hi!");
     }
 
@@ -30,7 +29,6 @@ class ConditionTest {
         assertEquals(expectedTemperature, condition.getCurrentTemperature());
         condition.setCurrentTemperature(26);
         assertEquals(26, condition.getCurrentTemperature());
-
 
         System.out.println("Hi!");
     }
@@ -69,7 +67,7 @@ class ConditionTest {
     @Test
     public void shouldDecreaseCurrentTemperature() {
 
-        int expectDifference = 1;
+        int expectDifference = 0;
         condition.decreaseCurrentTemperature();
         assertEquals(expectDifference, condition.difference);
     }
