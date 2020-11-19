@@ -29,7 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605773729879</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added getters and setters">
+      <created>1605775449840</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1605775449840</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -425,7 +432,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="вшыфидув" />
     <MESSAGE value="shouldChangeField" />
     <MESSAGE value="unmarked" />
     <MESSAGE value="add ConditionerAdvanced" />
@@ -450,17 +456,18 @@
     <MESSAGE value="end for 18.11." />
     <MESSAGE value="update ConditionTest.java" />
     <MESSAGE value="create Radio.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Radio.java" />
+    <MESSAGE value="added getters and setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getters and setters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="548" y="178" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1605704320411" />
-    <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1605605397692">
+    <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1605775767355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605605397692" />
+    <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605775767355" />
     <state x="739" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605688914019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -477,22 +484,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1852" height="279" key="GridCell.Tab.0.bottom" timestamp="1605772923345">
+    <state width="1852" height="279" key="GridCell.Tab.0.bottom" timestamp="1605774915210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605772923345" />
-    <state width="1852" height="279" key="GridCell.Tab.0.center" timestamp="1605772923345">
+    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605774915210" />
+    <state width="1852" height="279" key="GridCell.Tab.0.center" timestamp="1605774915210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605772923345" />
-    <state width="1852" height="279" key="GridCell.Tab.0.left" timestamp="1605772923345">
+    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605774915210" />
+    <state width="1852" height="279" key="GridCell.Tab.0.left" timestamp="1605774915209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605772923345" />
-    <state width="1852" height="279" key="GridCell.Tab.0.right" timestamp="1605772923345">
+    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605774915209" />
+    <state width="1852" height="279" key="GridCell.Tab.0.right" timestamp="1605774915210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605772923345" />
+    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605774915210" />
     <state width="1852" height="344" key="GridCell.Tab.1.bottom" timestamp="1605706822737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -513,10 +520,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="570" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605530281157" />
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1605772795897">
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1605775525250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605772795897" />
+    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605775525250" />
     <state x="771" y="301" key="chooseDestDirectoryDialog" timestamp="1605688911201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -533,10 +540,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605605051141" />
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup" timestamp="1605703334575">
+    <state x="604" y="244" width="672" height="677" key="run.anything.popup" timestamp="1605774914952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605703334575" />
+    <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605774914952" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
