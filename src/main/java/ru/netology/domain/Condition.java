@@ -9,6 +9,8 @@ public class Condition {
     private int oldTemperature;
     int difference;
 
+    Condition condition = new Condition();
+
     public String getName() {
         return name;
     }
@@ -29,9 +31,13 @@ public class Condition {
         return minTemperature;
     }
 
-    public void setMinTemperature(int minTemperature) { this.minTemperature = minTemperature; }
+    public void setMinTemperature(int minTemperature) {
+        this.minTemperature = minTemperature;
+    }
 
-    public int getCurrentTemperature() { return currentTemperature; }
+    public int getCurrentTemperature() {
+        return currentTemperature;
+    }
 
     public int getOldTemperature() {
         return oldTemperature;
@@ -58,27 +64,27 @@ public class Condition {
     }
 
     public int increaseCurrentTemperature() {
-        Condition condition = new Condition();
         if (condition.getCurrentTemperature() == condition.getMaxTemperature()) {
             return difference;
         }
 
-        oldTemperature = condition.getCurrentTemperature();
-        condition.setCurrentTemperature(24);
-        difference =  oldTemperature - condition.getCurrentTemperature();
+        oldTemperature = currentTemperature;
+        currentTemperature += 1;
+        difference = oldTemperature - condition.getCurrentTemperature();
         return difference;
 
     }
 
     public int decreaseCurrentTemperature() {
-        Condition condition = new Condition();
         if (condition.getCurrentTemperature() == condition.getMinTemperature()) {
             return difference;
         }
 
-        oldTemperature = condition.getCurrentTemperature();
+        oldTemperature = currentTemperature;
+        currentTemperature -= 1;
         difference = oldTemperature - condition.getCurrentTemperature();
         return difference;
+
 
     }
 }
