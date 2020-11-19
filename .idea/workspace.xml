@@ -29,7 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -76,14 +77,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.netology.domain" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.netology.domain" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.netology.domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ПКТ\IdeaProjects\SmartHome" />
@@ -411,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605785593057</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="create RadioTest.java">
+      <created>1605790843903</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1605790843903</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +447,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="unmarked" />
     <MESSAGE value="add ConditionerAdvanced" />
     <MESSAGE value="add Getters and Setters" />
     <MESSAGE value="add ConditionerAdvancedTest" />
@@ -464,7 +471,8 @@
     <MESSAGE value="create Radio.java" />
     <MESSAGE value="added getters and setters" />
     <MESSAGE value="update Condition" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Condition" />
+    <MESSAGE value="create RadioTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="create RadioTest.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
@@ -543,10 +551,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605605041731" />
-    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605605051141">
+    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605790815269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605605051141" />
+    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605790815269" />
     <state x="604" y="244" width="672" height="677" key="run.anything.popup" timestamp="1605774914952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

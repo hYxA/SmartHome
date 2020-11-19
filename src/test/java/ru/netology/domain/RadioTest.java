@@ -23,6 +23,14 @@ class RadioTest {
     }
 
     @Test
+    void getCurrentVolume() {
+    }
+
+    @Test
+    void setCurrentVolume() {
+    }
+
+    @Test
     void getCurrentNumber() {
     }
 
@@ -46,11 +54,5 @@ class RadioTest {
     void setMinNumber() {
     }
 
-    @Test
-    void getVolume() {
-    }
 
-    @Test
-    void setVolume() {
-    }
 }

@@ -2,10 +2,10 @@ package ru.netology.domain;
 
 public class Radio {
 
-    private int currentNumber;     // Номер текущей (прослушиваемой) радиостанции
-    private int maxNumber = 9;     // Максимальный номер радиостанции
-    private int minNumber = 0;     // Минимальный номер радиостанции
-    private int volume;            // Громкость звука
+    private int currentStation;     // Номер текущей (прослушиваемой) радиостанции
+    private int maxStation = 9;     // Максимальный номер радиостанции
+    private int minStation = 0;     // Минимальный номер радиостанции
+    private int currentVolume;            // Громкость звука
     private int maxVolume = 10;         // Максимальная громкость звука
     private int minVolume = 0;         // Минимальная громкость звука
 
@@ -26,47 +26,47 @@ public class Radio {
         this.minVolume = minVolume;
     }
 
-    public int getCurrentNumber() {
-        return currentNumber;
+    public int getCurrentStation() {
+        return currentStation;
     }
 
-    public void setCurrentNumber(int currentNumber) {
-        if (currentNumber > maxNumber) {      // Круговая зависимость. После 9 будет номер 0
-            currentNumber = 0;
+    public void setCurrentNumber(int currentStation) {
+        if (Radio.this.currentStation > maxStation) {      // Круговая зависимость. После 9 будет номер 0
+            Radio.this.currentStation = 0;
         }
-        if (currentNumber < minNumber>) {      // Круговая зависимость. После 0 будет номер 9
-            currentNumber = 9;
+        if (Radio.this.currentStation < minStation>) {      // Круговая зависимость. После 0 будет номер 9
+            Radio.this.currentStation = 9;
         }
-        this.currentNumber = currentNumber;
+        this.currentStation = Radio.this.currentStation;
     }
 
-    public int getMaxNumber() {
-        return maxNumber;
+    public int getMaxStation() {
+        return maxStation;
     }
 
-    public void setMaxNumber(int maxNumber) {
-        this.maxNumber = maxNumber;
+    public void setMaxStation(int maxStation) {
+        this.maxStation = maxStation;
     }
 
-    public int getMinNumber() {
-        return minNumber;
+    public int getMinStation() {
+        return minStation;
     }
 
-    public void setMinNumber(int minNumber) {
-        this.minNumber = minNumber;
+    public void setMinStation(int minStation) {
+        this.minStation = minStation;
     }
 
-    public int getVolume() {
-        return volume;
+    public int getCurrentVolume() {
+        return currentVolume;
     }
 
-    public void setVolume(int volume) {
-        if (volume > maxVolume) {
+    public void setCurrentVolume(int currentVolume) {
+        if (currentVolume > maxVolume) {
             return;
         }
-        if (volume < minNumber) {
+        if (currentVolume < minNumber) {
             return;
         }
-        this.volume = volume;
+        this.currentVolume = currentVolume;
     }
 }
