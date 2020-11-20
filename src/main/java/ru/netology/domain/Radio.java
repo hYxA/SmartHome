@@ -131,20 +131,15 @@ public class Radio {
      * Только для упрощения тестов!
      * Пользователю недоступно!
      */
-    public int setVolume() {
+    public void setVolume() {
 
         if (currentVolume < minStation) {
-            return 0;
+            return;
         }
         if (currentVolume > maxVolume) {
-            return 0;
+            return;
         }
 
-        difference = currentVolume;
-        currentVolume -= 1;
         this.currentVolume = currentVolume;
-        difference = difference - currentVolume;
-
-        return difference;
     }
 }
