@@ -30,11 +30,26 @@ public class Radio {
         return currentStation;
     }
 
-    public void setCurrentNumber(int currentStation) {
+    public void setCurrentStation(int currentStation) {
+        if (Radio.this.currentStation > maxStation) {      // Круговая зависимость. После 9 будет номер 0
+            return;
+        }
+        if (Radio.this.currentStation < minStation >) {      // Круговая зависимость. После 0 будет номер 9
+            return;
+        }
+        this.currentStation = Radio.this.currentStation;
+    }
+
+    public void setIncreaseCurrentStation(int currentStation) {
         if (Radio.this.currentStation > maxStation) {      // Круговая зависимость. После 9 будет номер 0
             Radio.this.currentStation = 0;
         }
-        if (Radio.this.currentStation < minStation>) {      // Круговая зависимость. После 0 будет номер 9
+        this.currentStation = Radio.this.currentStation;
+
+    }
+
+    public void setDecreaseCurrentStation(int currentStation) {
+        if (Radio.this.currentStation < minStation) {      // Круговая зависимость. После 0 будет номер 9
             Radio.this.currentStation = 9;
         }
         this.currentStation = Radio.this.currentStation;
@@ -64,7 +79,7 @@ public class Radio {
         if (currentVolume > maxVolume) {
             return;
         }
-        if (currentVolume < minNumber) {
+        if (currentVolume < minStation) {
             return;
         }
         this.currentVolume = currentVolume;
