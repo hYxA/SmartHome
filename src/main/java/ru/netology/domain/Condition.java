@@ -9,7 +9,6 @@ public class Condition {
     private int oldTemperature;
     int difference;
 
-   // Condition condition = new Condition();
 
     public String getName() {
         return name;
@@ -39,11 +38,9 @@ public class Condition {
         return currentTemperature;
     }
 
-    public int getOldTemperature() {
-        return oldTemperature;
-    }
-
-
+    /**
+     * Установка температуры
+     */
     public void setCurrentTemperature(int currentTemperature) {
         Condition condition = new Condition();
 
@@ -65,6 +62,9 @@ public class Condition {
         this.on = on;
     }
 
+    /**
+     * Увеличение температуры на единицу
+     */
     public int increaseCurrentTemperature() {
         Condition condition = new Condition();
 
@@ -79,6 +79,9 @@ public class Condition {
 
     }
 
+    /**
+     * Уменьшение температуры на единицу
+     */
     public int decreaseCurrentTemperature() {
         Condition condition = new Condition();
 

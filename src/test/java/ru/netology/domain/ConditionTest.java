@@ -8,7 +8,9 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 class ConditionTest {
     Condition condition = new Condition();
 
-
+    /**
+     * Проверка смены имени устройства
+     */
     @Test
     public void shouldCreate() {
         String expectedName = "Кондёр";
@@ -22,6 +24,9 @@ class ConditionTest {
     }
 
 
+    /**
+     * Проверка изменения поля
+     */
     @Test
     public void shouldChangeField() {
         int expectedTemperature = 25;
@@ -33,7 +38,9 @@ class ConditionTest {
         System.out.println("Hi!");
     }
 
-
+    /**
+     * Проверка неизменности поля
+     */
     @Test
     public void shouldNotChangeField() {
         int expectedTemperature = 0;
@@ -44,7 +51,9 @@ class ConditionTest {
         System.out.println("Hi!");
     }
 
-
+    /**
+     * Проверка увеличения температуры на 1 градус
+     */
     @Test
     public void shouldIncreaseCurrentTemperature() {
         int expectDifference = 1;
@@ -54,7 +63,11 @@ class ConditionTest {
         assertEquals(expectDifference, condition.difference);
     }
 
-
+    /**
+     * Проверка неизменности температуры
+     * при выходе за границу нижнего значения
+     * при попытке повысить значение на единицу
+     */
     @Test
     public void shouldNotIncreaseCurrentTemperature() {
         int expectDifference = 0;
@@ -64,7 +77,9 @@ class ConditionTest {
         assertEquals(expectDifference, condition.difference);
     }
 
-
+    /**
+     * Проверка умеьшения температуры на 1 градус
+     */
     @Test
     public void shouldDecreaseCurrentTemperature() {
         int expectDifference = 1;
@@ -74,6 +89,11 @@ class ConditionTest {
         assertEquals(expectDifference, condition.difference);
     }
 
+    /**
+     * Проверка неизменности температуры
+     * при выходе за границу нижнего значения
+     * при попытке понизить значение на единицу
+     */
     @Test
     public void shouldNotDecreaseCurrentTemperature() {
         int expectDifference = 0;
@@ -83,6 +103,9 @@ class ConditionTest {
         assertEquals(expectDifference, condition.difference);
     }
 
+    /**
+     * Проверка изменения максимального порогового значения температуры
+     */
     @Test
     public void shouldSetMaxTemperature() {
         condition.setMaxTemperature(35);
@@ -90,6 +113,9 @@ class ConditionTest {
 
     }
 
+    /**
+     * Проверка изменения минимального порогового значения температуры
+     */
     @Test
     public void shouldSetMinTemperature() {
         condition.setMinTemperature(15);
@@ -97,6 +123,10 @@ class ConditionTest {
 
     }
 
+    /**
+     * Проверка неизменности температуры
+     * при выходе за границу верхнего значения
+     */
     @Test
     public void shouldNotSetCurrentTemperatureOverMax() {
         int expectedTemperature = 0;
@@ -107,6 +137,10 @@ class ConditionTest {
 
     }
 
+    /**
+     * Проверка неизменности температуры
+     * при выходе за границу нижнего значения
+     */
     @Test
     public void shouldNotSetCurrentTemperatureLessMin() {
         int expectedTemperature = 0;
