@@ -94,23 +94,34 @@ public class Radio {
     /**
      * Увеличение громкости на единицу
      */
-    public void setIncreaseVolume(int currentVolume) {
+    public int setIncreaseVolume() {
+
         if (currentVolume > maxVolume) {
-            return;
+            return 0;
         }
+
+        difference = currentVolume;
         currentVolume += 1;
         this.currentVolume = currentVolume;
+        difference = currentVolume - difference;
+
+        return difference;
     }
 
     /**
      * Уменьшение громкости на единицу
      */
-    public void setDecreaseVolume(int currentVolume) {
+    public int setDecreaseVolume() {
 
         if (currentVolume < minStation) {
-            return;
+            return 0;
         }
+
+        difference = currentVolume;
         currentVolume -= 1;
         this.currentVolume = currentVolume;
+        difference = difference - currentVolume;
+
+        return difference;
     }
 }

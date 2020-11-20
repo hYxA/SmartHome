@@ -30,7 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
     </list>
@@ -460,7 +459,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605904455720</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="added tests set prev, next and after 9-0">
+      <created>1605906676441</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1605906676441</updated>
+    </task>
+    <task id="LOCAL-00038" summary="added JavaDoc comments">
+      <created>1605907258840</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1605907258840</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -488,8 +501,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="end lesson" />
-    <MESSAGE value="refactor .gitignore" />
     <MESSAGE value="update pom.xml" />
     <MESSAGE value="add new tests" />
     <MESSAGE value="update ConditionTest" />
@@ -513,7 +524,9 @@
     <MESSAGE value="added RadioTest.java" />
     <MESSAGE value="added logic to Radio.java" />
     <MESSAGE value="break" />
-    <option name="LAST_COMMIT_MESSAGE" value="break" />
+    <MESSAGE value="added tests set prev, next and after 9-0" />
+    <MESSAGE value="added JavaDoc comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="added JavaDoc comments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
@@ -608,6 +621,10 @@
     </state>
     <state x="430" y="180" width="672" height="500" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605902579034" />
     <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605774914952" />
+    <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1605907248113">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605907248113" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
