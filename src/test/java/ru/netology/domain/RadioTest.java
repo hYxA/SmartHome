@@ -82,7 +82,7 @@ class RadioTest {
 
     /**
      * Проверка переключения на следущую станцию
-     * <p>
+     *
      * 5я радиостанция выставляется для исключения граничного значения
      */
     @Test
@@ -96,7 +96,6 @@ class RadioTest {
 
     /**
      * Проверка переключения на предыдущую станцию
-     * <p>
      * 5я радиостанция выставляется для исключения граничного значения
      */
     @Test
@@ -143,7 +142,7 @@ class RadioTest {
     public void shouldSetIncreaseVolume() {
         radio.setIncreaseVolume();
 
-        assertEquals(expectedStation, radio.difference);
+        assertEquals(expectedDifference, radio.difference);
 
     }
 
@@ -154,6 +153,31 @@ class RadioTest {
     public void shouldSetDecreaseVolume() {
         radio.setDecreaseVolume();
 
-        assertEquals(expectedStation, radio.difference);
+        assertEquals(expectedDifference, radio.difference);
+    }
+
+    /**
+     * Проверка увеличения громкости на единицу
+     * при максимальном значении
+     */
+    @Test
+    public void shouldNOTSetIncreaseVolume() {
+        radio.setVolume(10);
+        radio.setIncreaseVolume();
+
+        assertEquals(10, radio.getCurrentVolume());
+
+    }
+
+    /**
+     * Проверка уменьшения громкости на единицу
+     * при минимальном значении
+     */
+    @Test
+    public void shouldNOTSetDecreaseVolume() {
+        radio.setVolume(0);
+        radio.setDecreaseVolume();
+
+        assertEquals(0, radio.getCurrentVolume());
     }
 }
