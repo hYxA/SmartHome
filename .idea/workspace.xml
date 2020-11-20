@@ -32,6 +32,7 @@
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +86,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.netology.domain" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ПКТ\IdeaProjects\SmartHome" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.netology.domain" />
     </key>
@@ -94,9 +98,6 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ПКТ\IdeaProjects\SmartHome" />
-    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -104,22 +105,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionTest.shouldDecreaseCurrentTemperature">
-    <configuration name="ConditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SmartHome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RadioTest.getMaxVolume">
     <configuration name="ConditionTest.shouldDecreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -184,13 +170,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest.getMaxVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SmartHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
+      <option name="METHOD_NAME" value="getMaxVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest.getMaxVolume" />
         <item itemvalue="JUnit.ConditionTest.shouldDecreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest.shouldNotSetCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest.shouldNotDecreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest.shouldIncreaseCurrentTemperature" />
-        <item itemvalue="JUnit.ConditionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605901165544</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added RadioTest.java">
+      <created>1605901660318</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1605901660318</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,7 +474,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Getters and Setters" />
     <MESSAGE value="add ConditionerAdvancedTest" />
     <MESSAGE value="shuldChangeField at ConditionerAdvancedTest" />
     <MESSAGE value="end lesson" />
@@ -490,7 +498,8 @@
     <MESSAGE value="update Condition" />
     <MESSAGE value="create RadioTest.java" />
     <MESSAGE value="added increase and decrease methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="added increase and decrease methods" />
+    <MESSAGE value="added RadioTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="added RadioTest.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
@@ -566,22 +575,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="771" y="301" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605688911201" />
-    <state x="554" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605700924631">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="394" y="99" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605902576134">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="394" y="99" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605902576134" />
     <state x="554" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605700924631" />
     <state x="600" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605605041731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605605041731" />
-    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605790815269">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605790815269" />
-    <state x="430" y="180" width="672" height="500" key="run.anything.popup" timestamp="1605901330804">
+    <state x="260" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605901546023">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="430" y="180" width="672" height="500" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901330804" />
+    <state x="260" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901546023" />
+    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605790815269" />
+    <state x="430" y="180" width="672" height="500" key="run.anything.popup" timestamp="1605902579034">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="430" y="180" width="672" height="500" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605902579034" />
     <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605774914952" />
   </component>
   <component name="XDebuggerManager">

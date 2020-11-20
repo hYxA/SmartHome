@@ -8,7 +8,7 @@ public class Radio {
     private int currentVolume;            // Громкость звука
     private int maxVolume = 10;         // Максимальная громкость звука
     private int minVolume = 0;         // Минимальная громкость звука
-
+    int difference;
 
     public int getMaxVolume() {
         return maxVolume;
@@ -40,19 +40,25 @@ public class Radio {
         this.currentStation = currentStation;
     }
 
-    public void setIncreaseCurrentStation(int currentStation) {
+    public int setNextStation(int currentStation) {
         if (Radio.this.currentStation > maxStation) {      // Круговая зависимость. После 9 будет номер 0
             Radio.this.currentStation = 0;
         }
-        this.currentStation = currentStation;
+        difference = currentStation;
+        currentStation += 1;
+        difference = currentStation - difference;
+        return difference;
 
     }
 
-    public void setDecreaseCurrentStation(int currentStation) {
+    public int setPrevStation(int currentStation) {
         if (Radio.this.currentStation < minStation) {      // Круговая зависимость. После 0 будет номер 9
             Radio.this.currentStation = 9;
         }
-        this.currentStation = currentStation;
+        difference = currentStation;
+        currentStation -= 1;
+        difference = difference - currentStation;
+        return difference;
     }
 
     public int getMaxStation() {
@@ -75,13 +81,20 @@ public class Radio {
         return currentVolume;
     }
 
-    public void setCurrentVolume(int currentVolume) {
+    public void setIncreaseVolume(int currentVolume) {
         if (currentVolume > maxVolume) {
             return;
         }
+        currentVolume += 1;
+        this.currentVolume = currentVolume;
+    }
+
+    public void setDecreaseVolume(int currentVolume) {
+
         if (currentVolume < minStation) {
             return;
         }
+        currentVolume -= 1;
         this.currentVolume = currentVolume;
     }
 }
