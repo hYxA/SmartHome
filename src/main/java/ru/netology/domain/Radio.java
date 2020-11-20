@@ -10,6 +10,7 @@ public class Radio {
     private int minVolume = 0;         // Минимальная громкость звука
     int difference;
 
+
     public int getMaxVolume() {
         return maxVolume;
     }
@@ -30,6 +31,9 @@ public class Radio {
         return currentStation;
     }
 
+    /**
+     * Установка радиостанции с цифровых кнопок
+     */
     public void setCurrentStation(int currentStation) {
         if (Radio.this.currentStation > maxStation) {      // Круговая зависимость. После 9 будет номер 0
             return;
@@ -40,6 +44,9 @@ public class Radio {
         this.currentStation = currentStation;
     }
 
+    /**
+     * Переключение на следущую радиостанцию
+     */
     public int setNextStation() {
         if (Radio.this.currentStation > maxStation) {      // Круговая зависимость. После 9 будет номер 0
             Radio.this.currentStation = 0;
@@ -51,6 +58,9 @@ public class Radio {
 
     }
 
+    /**
+     * Переключение на предыдущую радиостанцию
+     */
     public int setPrevStation() {
         if (Radio.this.currentStation < minStation) {      // Круговая зависимость. После 0 будет номер 9
             Radio.this.currentStation = 9;
@@ -81,6 +91,9 @@ public class Radio {
         return currentVolume;
     }
 
+    /**
+     * Увеличение громкости на единицу
+     */
     public void setIncreaseVolume(int currentVolume) {
         if (currentVolume > maxVolume) {
             return;
@@ -89,6 +102,9 @@ public class Radio {
         this.currentVolume = currentVolume;
     }
 
+    /**
+     * Уменьшение громкости на единицу
+     */
     public void setDecreaseVolume(int currentVolume) {
 
         if (currentVolume < minStation) {

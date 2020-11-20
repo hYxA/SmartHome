@@ -25,6 +25,10 @@ class RadioTest {
 
     }
 
+    /**
+     * Тест на установку станции с цифровых кнопок
+     * с превышением максимального значения
+     */
     @Test
     public void shouldNOTSetCurrentStationMoreThanMax() {
         station = 30;
@@ -36,6 +40,10 @@ class RadioTest {
 
     }
 
+    /**
+     * Тест на установку станции с цифровых кнопок
+     * с превышением минимального значения
+     */
     @Test
     public void shouldNOTSetCurrentStationLessThenMin() {
         station = -30;
@@ -47,6 +55,9 @@ class RadioTest {
 
     }
 
+    /**
+     * Проверка граничных значений номера станции
+     */
     @Test
     public void shouldSetCurrentStationLowerLimit() {
         expectedStation = 0;
@@ -56,6 +67,9 @@ class RadioTest {
         assertEquals(expectedStation, radio.getCurrentStation());
     }
 
+    /**
+     * Проверка граничных значений номера станции
+     */
     @Test
     public void shouldSetCurrentStationUpperLimit() {
         expectedStation = 9;
@@ -65,6 +79,9 @@ class RadioTest {
         assertEquals(expectedStation, radio.getCurrentStation());
     }
 
+    /**
+     * Проверка переключения на следущую станцию
+     */
     @Test
     public void shouldSetNextStation() {
         radio.setCurrentStation(5);
@@ -74,6 +91,9 @@ class RadioTest {
         assertEquals(expectedDifference, radio.difference);
     }
 
+    /**
+     * Проверка переключения на предыдущую станцию
+     */
     @Test
     public void shouldSetPrevStation() {
         radio.setCurrentStation(5);
@@ -83,6 +103,10 @@ class RadioTest {
         assertEquals(expectedDifference, radio.difference);
     }
 
+    /**
+     * Проверка переключения станции
+     * по циклической зависимости 0-9
+     */
     @Test
     public void shouldSetPrevStationAfterZero() {
         expectedStation = 9;
@@ -93,6 +117,10 @@ class RadioTest {
         assertEquals(expectedStation, radio.getCurrentStation());
     }
 
+    /**
+     * Проверка переключения станции
+     * по циклической зависимости 9-0
+     */
     @Test
     public void shouldSetNextStationAfterNine() {
         expectedStation = 0;
@@ -103,11 +131,16 @@ class RadioTest {
         assertEquals(expectedStation, radio.getCurrentStation());
     }
 
-
+    /**
+     * Проверка увеличения громкости на единицу
+     */
     @Test
     public void shouldSetIncreaseVolume() {
     }
 
+    /**
+     * Проверка уменьшения громкости на единицу
+     */
     @Test
     public void shouldSetDecreaseVolume() {
     }
