@@ -113,7 +113,30 @@ public class Radio {
      */
     public int setDecreaseVolume() {
 
+        if (currentVolume < minVolume) {
+            return 0;
+        }
+
+        difference = currentVolume;
+        currentVolume -= 1;
+        this.currentVolume = currentVolume;
+        difference = difference - currentVolume;
+
+        return difference;
+    }
+
+    /**
+     * Установка громкости
+     *
+     * Только для упрощения тестов!
+     * Пользователю недоступно!
+     */
+    public int setVolume() {
+
         if (currentVolume < minStation) {
+            return 0;
+        }
+        if (currentVolume > maxVolume) {
             return 0;
         }
 
