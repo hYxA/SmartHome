@@ -131,7 +131,7 @@ public class Radio {
      * Только для упрощения тестов!
      * Пользователю недоступно!
      */
-    public void setVolume() {
+    public void setVolume(int currentVolume) {
 
         if (currentVolume < minStation) {
             return;
