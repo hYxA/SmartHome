@@ -40,7 +40,7 @@ public class Radio {
         this.currentStation = currentStation;
     }
 
-    public int setNextStation(int currentStation) {
+    public int setNextStation() {
         if (Radio.this.currentStation > maxStation) {      // Круговая зависимость. После 9 будет номер 0
             Radio.this.currentStation = 0;
         }
@@ -51,7 +51,7 @@ public class Radio {
 
     }
 
-    public int setPrevStation(int currentStation) {
+    public int setPrevStation() {
         if (Radio.this.currentStation < minStation) {      // Круговая зависимость. После 0 будет номер 9
             Radio.this.currentStation = 9;
         }
