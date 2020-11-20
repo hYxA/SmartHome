@@ -6,59 +6,77 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RadioTest {
 
+    Radio radio = new Radio();
+    int expectedStation;
+    int station;
+
     @Test
-    void getMaxVolume() {
+    public void shouldSetCurrentStation() {
+        expectedStation = 3;
+
+        radio.setCurrentStation(expectedStation);
+
+        assertEquals(expectedStation, radio.getCurrentStation());
+
     }
 
     @Test
-    void setMaxVolume() {
+    public void shouldNOTSetCurrentStationMoreThanMax() {
+        station = 30;
+
+        expectedStation = radio.getCurrentStation();
+        radio.setCurrentStation(station);
+
+        assertEquals(expectedStation, radio.getCurrentStation());
+
     }
 
     @Test
-    void getMinVolume() {
+    public void shouldNOTSetCurrentStationLessThenMin() {
+        station = -30;
+
+        expectedStation = radio.getCurrentStation();
+        radio.setCurrentStation(station);
+
+        assertEquals(expectedStation, radio.getCurrentStation());
+
     }
 
     @Test
-    void setMinVolume() {
+    public void shouldSetCurrentStationLowerLimit() {
+        expectedStation = 0;
+
+        radio.setCurrentStation(expectedStation);
+
+        assertEquals(expectedStation, radio.getCurrentStation());
     }
 
     @Test
-    void getCurrentStation() {
+    public void shouldSetCurrentStationUpperLimit() {
+        expectedStation = 9;
+
+        radio.setCurrentStation(expectedStation);
+
+        assertEquals(expectedStation, radio.getCurrentStation());
     }
 
     @Test
-    void setCurrentStation() {
+    public void shouldSetNextStation() {
+        station = radio.getCurrentStation();
+        radio.setNextStation();
+
     }
 
     @Test
-    void setIncreaseCurrentStation() {
+    public void shouldSetPrevStation() {
+    }
+
+
+    @Test
+    public void shouldSetIncreaseVolume() {
     }
 
     @Test
-    void setDecreaseCurrentStation() {
-    }
-
-    @Test
-    void getMaxStation() {
-    }
-
-    @Test
-    void setMaxStation() {
-    }
-
-    @Test
-    void getMinStation() {
-    }
-
-    @Test
-    void setMinStation() {
-    }
-
-    @Test
-    void getCurrentVolume() {
-    }
-
-    @Test
-    void setCurrentVolume() {
+    public void shouldSetDecreaseVolume() {
     }
 }
