@@ -30,6 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
     </list>
@@ -104,7 +105,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.getMaxVolume">
+  <component name="RunManager" selected="JUnit.RadioTest">
     <configuration name="ConditionTest.shouldDecreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -116,38 +117,6 @@
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
       <option name="METHOD_NAME" value="shouldDecreaseCurrentTemperature" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConditionTest.shouldIncreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SmartHome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
-      <option name="METHOD_NAME" value="shouldIncreaseCurrentTemperature" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConditionTest.shouldNotDecreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SmartHome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
-      <option name="METHOD_NAME" value="shouldNotDecreaseCurrentTemperature" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,6 +138,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SmartHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RadioTest.getMaxVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -185,13 +169,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest.shouldNOTSetCurrentStationMoreThanMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SmartHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
+      <option name="METHOD_NAME" value="shouldNOTSetCurrentStationMoreThanMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.RadioTest.shouldNOTSetCurrentStationMoreThanMax" />
         <item itemvalue="JUnit.RadioTest.getMaxVolume" />
         <item itemvalue="JUnit.ConditionTest.shouldDecreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest.shouldNotSetCurrentTemperature" />
-        <item itemvalue="JUnit.ConditionTest.shouldNotDecreaseCurrentTemperature" />
-        <item itemvalue="JUnit.ConditionTest.shouldIncreaseCurrentTemperature" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +473,42 @@
       <option name="project" value="LOCAL" />
       <updated>1605907258840</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="added tests increase/decrease volume">
+      <created>1605907989708</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1605907989708</updated>
+    </task>
+    <task id="LOCAL-00040" summary="added setVolume">
+      <created>1605908308976</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1605908308976</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update setVolume">
+      <created>1605908366991</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1605908366991</updated>
+    </task>
+    <task id="LOCAL-00042" summary="tests NOT increase/decrease volume">
+      <created>1605908518663</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1605908518663</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update setVolume">
+      <created>1605908565104</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1605908565104</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,10 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update pom.xml" />
-    <MESSAGE value="add new tests" />
-    <MESSAGE value="update ConditionTest" />
-    <MESSAGE value="added increase and decrease" />
     <MESSAGE value="added README.md" />
     <MESSAGE value="COVEREDRATIO 37%" />
     <MESSAGE value="tests ready" />
@@ -526,7 +557,11 @@
     <MESSAGE value="break" />
     <MESSAGE value="added tests set prev, next and after 9-0" />
     <MESSAGE value="added JavaDoc comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added JavaDoc comments" />
+    <MESSAGE value="added tests increase/decrease volume" />
+    <MESSAGE value="added setVolume" />
+    <MESSAGE value="tests NOT increase/decrease volume" />
+    <MESSAGE value="update setVolume" />
+    <option name="LAST_COMMIT_MESSAGE" value="update setVolume" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
@@ -553,21 +588,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1852" height="279" key="GridCell.Tab.0.bottom" timestamp="1605787077292">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1236" height="272" key="GridCell.Tab.0.bottom" timestamp="1605908962207">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
+    <state width="1236" height="272" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
     <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
-    <state width="1852" height="279" key="GridCell.Tab.0.center" timestamp="1605787077292">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1236" height="272" key="GridCell.Tab.0.center" timestamp="1605908962207">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
+    <state width="1236" height="272" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
     <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
-    <state width="1852" height="279" key="GridCell.Tab.0.left" timestamp="1605787077291">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1236" height="272" key="GridCell.Tab.0.left" timestamp="1605908962206">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
+    <state width="1236" height="272" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962206" />
     <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077291" />
-    <state width="1852" height="279" key="GridCell.Tab.0.right" timestamp="1605787077292">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1236" height="272" key="GridCell.Tab.0.right" timestamp="1605908962207">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
+    <state width="1236" height="272" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
     <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
     <state width="1852" height="344" key="GridCell.Tab.1.bottom" timestamp="1605787071033">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -616,10 +655,11 @@
     </state>
     <state x="260" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901546023" />
     <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605790815269" />
-    <state x="430" y="180" width="672" height="500" key="run.anything.popup" timestamp="1605902579034">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="1769" y="240" width="672" height="667" key="run.anything.popup" timestamp="1605908594557">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state x="430" y="180" width="672" height="500" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605902579034" />
+    <state x="1769" y="240" width="672" height="667" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908594557" />
     <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605774914952" />
     <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1605907248113">
       <screen x="1366" y="0" width="1280" height="1024" />

@@ -35,10 +35,10 @@ public class Radio {
      * Установка радиостанции с цифровых кнопок
      */
     public void setCurrentStation(int currentStation) {
-        if (Radio.this.currentStation > maxStation) {      // Круговая зависимость. После 9 будет номер 0
+        if (currentStation > maxStation) {
             return;
         }
-        if (Radio.this.currentStation < minStation) {      // Круговая зависимость. После 0 будет номер 9
+        if (currentStation < minStation) {
             return;
         }
         this.currentStation = currentStation;
@@ -48,12 +48,14 @@ public class Radio {
      * Переключение на следущую радиостанцию
      */
     public int setNextStation() {
-        if (Radio.this.currentStation > maxStation) {      // Круговая зависимость. После 9 будет номер 0
-            Radio.this.currentStation = 0;
-        }
         difference = currentStation;
+        if (Radio.this.currentStation == maxStation) {      // Круговая зависимость. После 9 будет номер 0
+            Radio.this.currentStation = 0;
+            return 1;
+        } else {
         currentStation += 1;
         difference = currentStation - difference;
+        }
         return difference;
 
     }
@@ -62,12 +64,14 @@ public class Radio {
      * Переключение на предыдущую радиостанцию
      */
     public int setPrevStation() {
-        if (Radio.this.currentStation < minStation) {      // Круговая зависимость. После 0 будет номер 9
-            Radio.this.currentStation = 9;
-        }
         difference = currentStation;
+        if (Radio.this.currentStation == minStation) {      // Круговая зависимость. После 0 будет номер 9
+            Radio.this.currentStation = 9;
+            return 1;
+        } else {
         currentStation -= 1;
         difference = difference - currentStation;
+        }
         return difference;
     }
 
@@ -96,13 +100,12 @@ public class Radio {
      */
     public int setIncreaseVolume() {
 
-        if (currentVolume > maxVolume) {
+        if (currentVolume == maxVolume) {
             return 0;
         }
 
         difference = currentVolume;
         currentVolume += 1;
-        this.currentVolume = currentVolume;
         difference = currentVolume - difference;
 
         return difference;
@@ -113,13 +116,12 @@ public class Radio {
      */
     public int setDecreaseVolume() {
 
-        if (currentVolume < minVolume) {
+        if (currentVolume == minVolume) {
             return 0;
         }
 
         difference = currentVolume;
         currentVolume -= 1;
-        this.currentVolume = currentVolume;
         difference = difference - currentVolume;
 
         return difference;

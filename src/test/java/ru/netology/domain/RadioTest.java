@@ -10,7 +10,6 @@ class RadioTest {
     int expectedStation;
     int station;
     int expectedDifference = 1;
-    int oldVolume;
 
 
     /**
@@ -116,7 +115,7 @@ class RadioTest {
         expectedStation = 9;
         radio.setCurrentStation(0);
         station = radio.getCurrentStation();
-        radio.setNextStation();
+        radio.setPrevStation();
 
         assertEquals(expectedStation, radio.getCurrentStation());
     }
@@ -140,6 +139,7 @@ class RadioTest {
      */
     @Test
     public void shouldSetIncreaseVolume() {
+        radio.setVolume(5);
         radio.setIncreaseVolume();
 
         assertEquals(expectedDifference, radio.difference);
@@ -151,6 +151,7 @@ class RadioTest {
      */
     @Test
     public void shouldSetDecreaseVolume() {
+        radio.setVolume(5);
         radio.setDecreaseVolume();
 
         assertEquals(expectedDifference, radio.difference);
