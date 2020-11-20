@@ -30,7 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
     </list>
@@ -58,8 +57,13 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\ПКТ\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\202.7660.26\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:/Users/ПКТ/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/202.7660.26/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1kMvtDEAjm80eBGDIAeTVtzbBhv" />
@@ -75,6 +79,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ru/netology/domain" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -181,10 +186,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConditionTest.shouldDecreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest.shouldNotSetCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest.shouldNotDecreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest.shouldIncreaseCurrentTemperature" />
-        <item itemvalue="JUnit.ConditionTest.shouldDecreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest" />
       </list>
     </recent_temporary>
@@ -425,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605790843903</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added increase and decrease methods">
+      <created>1605901165544</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1605901165544</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,7 +465,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add ConditionerAdvanced" />
     <MESSAGE value="add Getters and Setters" />
     <MESSAGE value="add ConditionerAdvancedTest" />
     <MESSAGE value="shuldChangeField at ConditionerAdvancedTest" />
@@ -478,7 +489,8 @@
     <MESSAGE value="added getters and setters" />
     <MESSAGE value="update Condition" />
     <MESSAGE value="create RadioTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="create RadioTest.java" />
+    <MESSAGE value="added increase and decrease methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="added increase and decrease methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
@@ -537,9 +549,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1852" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
-    <state x="681" y="261" width="570" height="524" key="StructurePopup" timestamp="1605530281157">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="184" y="15" key="SettingsEditor" timestamp="1605901481462">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="184" y="15" key="SettingsEditor/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901481462" />
+    <state x="485" y="193" width="570" height="387" key="StructurePopup" timestamp="1605901177451">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="485" y="193" width="570" height="387" key="StructurePopup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901177451" />
     <state x="681" y="261" width="570" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605530281157" />
     <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1605775525250">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -561,9 +578,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605790815269" />
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup" timestamp="1605774914952">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="430" y="180" width="672" height="500" key="run.anything.popup" timestamp="1605901330804">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="430" y="180" width="672" height="500" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901330804" />
     <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605774914952" />
   </component>
   <component name="XDebuggerManager">

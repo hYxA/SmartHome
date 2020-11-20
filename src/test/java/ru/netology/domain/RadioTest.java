@@ -23,36 +23,42 @@ class RadioTest {
     }
 
     @Test
+    void getCurrentStation() {
+    }
+
+    @Test
+    void setCurrentStation() {
+    }
+
+    @Test
+    void setIncreaseCurrentStation() {
+    }
+
+    @Test
+    void setDecreaseCurrentStation() {
+    }
+
+    @Test
+    void getMaxStation() {
+    }
+
+    @Test
+    void setMaxStation() {
+    }
+
+    @Test
+    void getMinStation() {
+    }
+
+    @Test
+    void setMinStation() {
+    }
+
+    @Test
     void getCurrentVolume() {
     }
 
     @Test
     void setCurrentVolume() {
     }
-
-    @Test
-    void getCurrentNumber() {
-    }
-
-    @Test
-    void setCurrentNumber() {
-    }
-
-    @Test
-    void getMaxNumber() {
-    }
-
-    @Test
-    void setMaxNumber() {
-    }
-
-    @Test
-    void getMinNumber() {
-    }
-
-    @Test
-    void setMinNumber() {
-    }
-
-
 }
