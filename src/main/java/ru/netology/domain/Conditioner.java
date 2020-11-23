@@ -69,16 +69,12 @@ public class Conditioner {
 
     }
 
-    public int decreaseCurrentTemperature() {
+    public void decreaseCurrentTemperature() {
 
         if (currentTemperature == minTemperature) {
-            return difference = 0;
+            return;
         }
-
-        oldTemperature = currentTemperature;
-        currentTemperature -= 1; // поменял на переменную непосредственно
-        difference = oldTemperature - currentTemperature;
-        return difference;
+        currentTemperature -= 1;
 
     }
 }

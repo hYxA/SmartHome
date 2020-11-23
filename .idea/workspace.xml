@@ -29,7 +29,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Conditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Conditioner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" afterDir="false" />
     </list>
@@ -104,22 +103,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionerTest.shouldIncreaseCurrentTemperature">
-    <configuration name="ConditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SmartHome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ConditionerTest.shouldNotIncreaseCurrentTemperature">
     <configuration name="ConditionerTest.shouldDecreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -168,6 +152,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConditionerTest.shouldNotIncreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SmartHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionerTest" />
+      <option name="METHOD_NAME" value="shouldNotIncreaseCurrentTemperature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConditionerTest.shouldNotSetCurrentTemperatureLessMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConditionerTest.shouldNotIncreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionerTest.shouldIncreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionerTest.shouldNotSetCurrentTemperatureLessMin" />
         <item itemvalue="JUnit.ConditionerTest.shouldNotDecreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionerTest.shouldDecreaseCurrentTemperature" />
-        <item itemvalue="JUnit.ConditionerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606118656734</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="update test Increase Temp">
+      <created>1606119989067</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1606119989067</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +556,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tests ready" />
     <MESSAGE value="tests ready 2" />
     <MESSAGE value="added test shouldSetMaxTemperature" />
     <MESSAGE value="added test shouldSetMinTemperature" />
@@ -574,7 +580,8 @@
     <MESSAGE value="update setVolume" />
     <MESSAGE value="condition - conditioner" />
     <MESSAGE value="update Conditioner.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Conditioner.java" />
+    <MESSAGE value="update test Increase Temp" />
+    <option name="LAST_COMMIT_MESSAGE" value="update test Increase Temp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
@@ -601,42 +608,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1236" height="272" key="GridCell.Tab.0.bottom" timestamp="1605908962207">
-      <screen x="1366" y="0" width="1280" height="1024" />
+    <state width="1852" height="279" key="GridCell.Tab.0.bottom" timestamp="1606119953229">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
-    <state width="1236" height="272" key="GridCell.Tab.0.center" timestamp="1605908962207">
-      <screen x="1366" y="0" width="1280" height="1024" />
+    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606119953229" />
+    <state width="1852" height="279" key="GridCell.Tab.0.center" timestamp="1606119953229">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
-    <state width="1236" height="272" key="GridCell.Tab.0.left" timestamp="1605908962206">
-      <screen x="1366" y="0" width="1280" height="1024" />
+    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606119953228" />
+    <state width="1852" height="279" key="GridCell.Tab.0.left" timestamp="1606119953228">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962206" />
-    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077291" />
-    <state width="1236" height="272" key="GridCell.Tab.0.right" timestamp="1605908962207">
-      <screen x="1366" y="0" width="1280" height="1024" />
+    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606119953228" />
+    <state width="1852" height="279" key="GridCell.Tab.0.right" timestamp="1606119953229">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
-    <state width="1852" height="344" key="GridCell.Tab.1.bottom" timestamp="1605787071033">
+    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606119953229" />
+    <state width="1852" height="344" key="GridCell.Tab.1.bottom" timestamp="1606119934532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
-    <state width="1852" height="344" key="GridCell.Tab.1.center" timestamp="1605787071033">
+    <state width="1852" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606119934532" />
+    <state width="1852" height="344" key="GridCell.Tab.1.center" timestamp="1606119934532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
-    <state width="1852" height="344" key="GridCell.Tab.1.left" timestamp="1605787071033">
+    <state width="1852" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606119934532" />
+    <state width="1852" height="344" key="GridCell.Tab.1.left" timestamp="1606119934531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
-    <state width="1852" height="344" key="GridCell.Tab.1.right" timestamp="1605787071033">
+    <state width="1852" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606119934531" />
+    <state width="1852" height="344" key="GridCell.Tab.1.right" timestamp="1606119934532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
+    <state width="1852" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606119934532" />
     <state x="184" y="15" key="SettingsEditor" timestamp="1605901481462">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -678,5 +685,21 @@
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605907248113" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
