@@ -8,8 +8,6 @@ class RadioTest {
 
     Radio radio = new Radio();
     int expectedStation;
-    int station;
-    int expectedDifference = 1;
 
 
     /**
@@ -31,10 +29,9 @@ class RadioTest {
      */
     @Test
     public void shouldNOTSetCurrentStationMoreThanMax() {
-        station = 30;
 
         expectedStation = radio.getCurrentStation();
-        radio.setCurrentStation(station);
+        radio.setCurrentStation(30);
 
         assertEquals(expectedStation, radio.getCurrentStation());
 
@@ -46,7 +43,7 @@ class RadioTest {
      */
     @Test
     public void shouldNOTSetCurrentStationLessThenMin() {
-        station = -30;
+        int station = -30;
 
         expectedStation = radio.getCurrentStation();
         radio.setCurrentStation(station);
@@ -81,29 +78,30 @@ class RadioTest {
 
     /**
      * Проверка переключения на следущую станцию
-     *
+     * <p>
      * 5я радиостанция выставляется для исключения граничного значения
      */
     @Test
     public void shouldSetNextStation() {
         radio.setCurrentStation(5);
-        station = radio.getCurrentStation();
+        expectedStation = radio.getCurrentStation() + 1;
         radio.setNextStation();
 
-        assertEquals(expectedDifference, radio.difference);
+        assertEquals(expectedStation, radio.getCurrentStation());
     }
 
     /**
      * Проверка переключения на предыдущую станцию
      * 5я радиостанция выставляется для исключения граничного значения
+     * и срабатывания условных операторов
      */
     @Test
     public void shouldSetPrevStation() {
         radio.setCurrentStation(5);
-        station = radio.getCurrentStation();
-        radio.setNextStation();
+        expectedStation = radio.getCurrentStation() - 1;
+        radio.setPrevStation();
 
-        assertEquals(expectedDifference, radio.difference);
+        assertEquals(expectedStation, radio.getCurrentStation());
     }
 
     /**
@@ -114,7 +112,6 @@ class RadioTest {
     public void shouldSetPrevStationAfterZero() {
         expectedStation = 9;
         radio.setCurrentStation(0);
-        station = radio.getCurrentStation();
         radio.setPrevStation();
 
         assertEquals(expectedStation, radio.getCurrentStation());
@@ -128,7 +125,6 @@ class RadioTest {
     public void shouldSetNextStationAfterNine() {
         expectedStation = 0;
         radio.setCurrentStation(9);
-        station = radio.getCurrentStation();
         radio.setNextStation();
 
         assertEquals(expectedStation, radio.getCurrentStation());
@@ -139,10 +135,11 @@ class RadioTest {
      */
     @Test
     public void shouldSetIncreaseVolume() {
+        int expectedVolume = 6;
         radio.setVolume(5);
         radio.setIncreaseVolume();
 
-        assertEquals(expectedDifference, radio.difference);
+        assertEquals(expectedVolume, radio.getCurrentVolume());
 
     }
 
@@ -151,10 +148,11 @@ class RadioTest {
      */
     @Test
     public void shouldSetDecreaseVolume() {
+        int expectedVolume = 4;
         radio.setVolume(5);
         radio.setDecreaseVolume();
 
-        assertEquals(expectedDifference, radio.difference);
+        assertEquals(expectedVolume, radio.getCurrentVolume());
     }
 
     /**
@@ -163,10 +161,11 @@ class RadioTest {
      */
     @Test
     public void shouldNOTSetIncreaseVolume() {
+        int expectedVolume = 10;
         radio.setVolume(10);
         radio.setIncreaseVolume();
 
-        assertEquals(10, radio.getCurrentVolume());
+        assertEquals(expectedVolume, radio.getCurrentVolume());
 
     }
 
@@ -176,10 +175,11 @@ class RadioTest {
      */
     @Test
     public void shouldNOTSetDecreaseVolume() {
+        int expectedVolume = 0;
         radio.setVolume(0);
         radio.setDecreaseVolume();
 
-        assertEquals(0, radio.getCurrentVolume());
+        assertEquals(expectedVolume, radio.getCurrentVolume());
     }
 
 }
