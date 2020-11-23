@@ -20,7 +20,6 @@ class RadioTest {
         radio.setCurrentStation(expectedStation);
 
         assertEquals(expectedStation, radio.getCurrentStation());
-
     }
 
     /**
@@ -34,7 +33,6 @@ class RadioTest {
         radio.setCurrentStation(30);
 
         assertEquals(expectedStation, radio.getCurrentStation());
-
     }
 
     /**
@@ -49,7 +47,6 @@ class RadioTest {
         radio.setCurrentStation(station);
 
         assertEquals(expectedStation, radio.getCurrentStation());
-
     }
 
     /**
@@ -140,7 +137,6 @@ class RadioTest {
         radio.setIncreaseVolume();
 
         assertEquals(expectedVolume, radio.getCurrentVolume());
-
     }
 
     /**
@@ -166,7 +162,6 @@ class RadioTest {
         radio.setIncreaseVolume();
 
         assertEquals(expectedVolume, radio.getCurrentVolume());
-
     }
 
     /**
@@ -203,5 +198,4 @@ class RadioTest {
 
         assertEquals(expectedVolume, radio.getCurrentVolume());
     }
-
 }

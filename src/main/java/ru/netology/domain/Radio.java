@@ -52,7 +52,6 @@ public class Radio {
             return;
         }
         currentStation += 1;
-
     }
 
     /**
@@ -64,8 +63,6 @@ public class Radio {
             return;
         }
         currentStation -= 1;
-
-
     }
 
     public int getMaxStation() {
@@ -96,7 +93,6 @@ public class Radio {
         if (currentVolume == maxVolume) {
             return;
         }
-
         currentVolume += 1;
     }
 
@@ -108,7 +104,6 @@ public class Radio {
         if (currentVolume == minVolume) {
             return;
         }
-
         currentVolume -= 1;
     }
 
@@ -125,7 +120,6 @@ public class Radio {
         if (currentVolume > maxVolume) {
             return;
         }
-
         this.currentVolume = currentVolume;
     }
 }
