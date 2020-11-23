@@ -67,7 +67,7 @@ class ConditionerTest {
     public void shouldDecreaseCurrentTemperature() {
         int expectTemperature = conditioner.getCurrentTemperature() - 1;
 
-        conditioner.increaseCurrentTemperature();
+        conditioner.decreaseCurrentTemperature();
         assertEquals(expectTemperature, conditioner.getCurrentTemperature());
     }
 

@@ -103,7 +103,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionerTest.shouldNotIncreaseCurrentTemperature">
+  <component name="RunManager" selected="JUnit.ConditionerTest.shouldDecreaseCurrentTemperature">
     <configuration name="ConditionerTest.shouldDecreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConditionerTest.shouldDecreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionerTest.shouldNotIncreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionerTest.shouldIncreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionerTest.shouldNotSetCurrentTemperatureLessMin" />
         <item itemvalue="JUnit.ConditionerTest.shouldNotDecreaseCurrentTemperature" />
-        <item itemvalue="JUnit.ConditionerTest.shouldDecreaseCurrentTemperature" />
       </list>
     </recent_temporary>
   </component>
