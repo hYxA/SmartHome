@@ -47,11 +47,10 @@ class ConditionerTest {
 
     @Test
     public void shouldIncreaseCurrentTemperature() {
-        int expectDifference = 1;
+        int expectTemperature = conditioner.getCurrentTemperature() + 1;
 
-        conditioner.setCurrentTemperature(25);
         conditioner.increaseCurrentTemperature();
-        assertEquals(expectDifference, conditioner.difference);
+        assertEquals(expectTemperature, conditioner.getCurrentTemperature());
     }
 
 

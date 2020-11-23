@@ -28,7 +28,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="" />
+    <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Conditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Conditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +104,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ConditionerTest.shouldIncreaseCurrentTemperature">
     <configuration name="ConditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -182,9 +186,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConditionerTest.shouldIncreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionerTest.shouldNotSetCurrentTemperatureLessMin" />
         <item itemvalue="JUnit.ConditionerTest.shouldNotDecreaseCurrentTemperature" />
-        <item itemvalue="JUnit.ConditionerTest.shouldIncreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionerTest.shouldDecreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionerTest" />
       </list>
@@ -510,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606118458733</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update Conditioner.java">
+      <created>1606118656734</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1606118656734</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="COVEREDRATIO 37%" />
     <MESSAGE value="tests ready" />
     <MESSAGE value="tests ready 2" />
     <MESSAGE value="added test shouldSetMaxTemperature" />
@@ -563,7 +573,8 @@
     <MESSAGE value="tests NOT increase/decrease volume" />
     <MESSAGE value="update setVolume" />
     <MESSAGE value="condition - conditioner" />
-    <option name="LAST_COMMIT_MESSAGE" value="condition - conditioner" />
+    <MESSAGE value="update Conditioner.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Conditioner.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">

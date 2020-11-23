@@ -4,7 +4,7 @@ public class Conditioner {
     private String name;
     private int maxTemperature = 32;
     private int minTemperature = 16;
-    private int currentTemperature;
+    private int currentTemperature = 25;
     private boolean on;
     int oldTemperature;
     int difference;
@@ -60,16 +60,12 @@ public class Conditioner {
         this.on = on;
     }
 
-    public int increaseCurrentTemperature() {
+    public void increaseCurrentTemperature() {
 
         if (currentTemperature == maxTemperature) {
-            return difference = 0;
+            return;
         }
-
-        oldTemperature = currentTemperature;
-        currentTemperature += 1; // поменял на переменную непосредственно
-        difference = currentTemperature - oldTemperature;
-        return difference;
+        currentTemperature += 1;
 
     }
 
