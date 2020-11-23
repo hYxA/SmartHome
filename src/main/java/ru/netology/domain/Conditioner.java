@@ -6,10 +6,7 @@ public class Conditioner {
     private int minTemperature = 16;
     private int currentTemperature = 25;
     private boolean on;
-    int oldTemperature;
-    int difference;
 
-   // Condition condition = new Condition();
 
     public String getName() {
         return name;
