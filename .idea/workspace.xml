@@ -29,8 +29,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -513,7 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606121273528</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update RadioTest.java">
+      <created>1606125402640</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1606125402640</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update Radio.java">
+      <created>1606125488521</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1606125488521</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,8 +553,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="COVEREDRATIO 37%" />
-    <MESSAGE value="tests ready" />
     <MESSAGE value="tests ready 2" />
     <MESSAGE value="added test shouldSetMaxTemperature" />
     <MESSAGE value="added test shouldSetMinTemperature" />
@@ -566,7 +576,9 @@
     <MESSAGE value="tests NOT increase/decrease volume" />
     <MESSAGE value="update setVolume" />
     <MESSAGE value="remove excess value" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove excess value" />
+    <MESSAGE value="update RadioTest.java" />
+    <MESSAGE value="update Radio.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Radio.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
@@ -593,26 +605,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1852" height="279" key="GridCell.Tab.0.bottom" timestamp="1606121317184">
+    <state width="1852" height="279" key="GridCell.Tab.0.bottom" timestamp="1606125429982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606121317184" />
-    <state width="1852" height="279" key="GridCell.Tab.0.center" timestamp="1606121317184">
+    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606125429982" />
+    <state width="1852" height="279" key="GridCell.Tab.0.center" timestamp="1606125429982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606121317184" />
-    <state width="1852" height="279" key="GridCell.Tab.0.left" timestamp="1606121317184">
+    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606125429982" />
+    <state width="1852" height="279" key="GridCell.Tab.0.left" timestamp="1606125429982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962206" />
-    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606121317184" />
-    <state width="1852" height="279" key="GridCell.Tab.0.right" timestamp="1606121317184">
+    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606125429982" />
+    <state width="1852" height="279" key="GridCell.Tab.0.right" timestamp="1606125429982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606121317184" />
+    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606125429982" />
     <state width="1852" height="344" key="GridCell.Tab.1.bottom" timestamp="1605787071033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -668,12 +680,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606121174293" />
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup" timestamp="1606121216984">
+    <state width="600" height="428" key="javadoc.popup" timestamp="1606125753806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606125753806" />
+    <state x="604" y="244" width="672" height="677" key="run.anything.popup" timestamp="1606125222409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="430" y="180" width="672" height="500" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605902579034" />
     <state x="1769" y="240" width="672" height="667" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908594557" />
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606121216984" />
+    <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606125222409" />
     <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1605907248113">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
@@ -704,6 +720,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
           <line>79</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

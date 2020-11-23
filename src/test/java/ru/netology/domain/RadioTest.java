@@ -182,4 +182,26 @@ class RadioTest {
         assertEquals(expectedVolume, radio.getCurrentVolume());
     }
 
+    /**
+     * Проверка установки громкости выше максимальновозможного значения
+     */
+    @Test
+    public void shouldNotSetVolumeMoreThanMax() {
+        int expectedVolume = radio.getCurrentVolume();
+        radio.setVolume(50);
+
+        assertEquals(expectedVolume, radio.getCurrentVolume());
+    }
+
+    /**
+     * Проверка установки громкости ниже минимальновозможного значения
+     */
+    @Test
+    public void shouldNotSetVolumeLessThanMin() {
+        int expectedVolume = radio.getCurrentVolume();
+        radio.setVolume(-50);
+
+        assertEquals(expectedVolume, radio.getCurrentVolume());
+    }
+
 }
