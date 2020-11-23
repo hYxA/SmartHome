@@ -36,7 +36,7 @@ class ConditionerTest {
 
     @Test
     public void shouldNotChangeField() {
-        int expectedTemperature = 0;
+        int expectedTemperature = conditioner.getCurrentTemperature();
 
         conditioner.setCurrentTemperature(200);
         assertEquals(expectedTemperature, conditioner.getCurrentTemperature());
@@ -97,7 +97,7 @@ class ConditionerTest {
 
     @Test
     public void shouldNotSetCurrentTemperatureOverMax() {
-        int expectedTemperature = 0;
+        int expectedTemperature = conditioner.getCurrentTemperature();
 
 
         conditioner.setCurrentTemperature(40);
@@ -107,7 +107,7 @@ class ConditionerTest {
 
     @Test
     public void shouldNotSetCurrentTemperatureLessMin() {
-        int expectedTemperature = 0;
+        int expectedTemperature = conditioner.getCurrentTemperature();
         conditioner.setCurrentTemperature(10);
         assertEquals(expectedTemperature, conditioner.getCurrentTemperature());
     }
