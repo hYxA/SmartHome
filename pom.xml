@@ -42,7 +42,7 @@
 
                     <execution>
                         <!-- приготовит агенты gmail для отслеживания вызова кода -->
-                        <id>prepare-agent</id>
+                        <id>jacoco-prepare-agent</id>
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
@@ -59,7 +59,7 @@
                                 <rule>
                                     <limits>
                                         <limit>
-                                            <counter>BRANCH</counter>
+                                            <counter>COMLEXITY</counter>
                                             <value>COVEREDRATIO</value>
                                             <minimum>100%</minimum>
                                         </limit>
