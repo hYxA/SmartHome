@@ -22,9 +22,8 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/Radio" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Radio" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -58,7 +57,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Users/ПКТ/AppData/Local/JetBrains/Toolbox/apps/IDEA-C/ch-0/202.7660.26/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -106,7 +105,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RadioTest">
-    <configuration name="ConditionTest.shouldDecreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
         <pattern>
@@ -116,24 +115,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
-      <option name="METHOD_NAME" value="shouldDecreaseCurrentTemperature" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConditionTest.shouldNotSetCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SmartHome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
-      <option name="METHOD_NAME" value="shouldNotSetCurrentTemperature" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,22 +131,6 @@
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.getMaxVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SmartHome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.domain" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
-      <option name="METHOD_NAME" value="getMaxVolume" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,17 +151,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest.shouldSetNextStationAfterNine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SmartHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
+      <option name="METHOD_NAME" value="shouldSetNextStationAfterNine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldSetPrevStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SmartHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domain" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domain.RadioTest" />
+      <option name="METHOD_NAME" value="shouldSetPrevStation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.RadioTest.shouldSetNextStationAfterNine" />
+        <item itemvalue="JUnit.RadioTest.shouldSetPrevStation" />
+        <item itemvalue="JUnit.ConditionTest" />
         <item itemvalue="JUnit.RadioTest.shouldNOTSetCurrentStationMoreThanMax" />
-        <item itemvalue="JUnit.RadioTest.getMaxVolume" />
-        <item itemvalue="JUnit.ConditionTest.shouldDecreaseCurrentTemperature" />
-        <item itemvalue="JUnit.ConditionTest.shouldNotSetCurrentTemperature" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -508,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605908565104</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="remove excess value">
+      <created>1606121273528</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1606121273528</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +541,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added README.md" />
     <MESSAGE value="COVEREDRATIO 37%" />
     <MESSAGE value="tests ready" />
     <MESSAGE value="tests ready 2" />
@@ -561,7 +565,8 @@
     <MESSAGE value="added setVolume" />
     <MESSAGE value="tests NOT increase/decrease volume" />
     <MESSAGE value="update setVolume" />
-    <option name="LAST_COMMIT_MESSAGE" value="update setVolume" />
+    <MESSAGE value="remove excess value" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove excess value" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
@@ -588,26 +593,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1236" height="272" key="GridCell.Tab.0.bottom" timestamp="1605908962207">
-      <screen x="1366" y="0" width="1280" height="1024" />
+    <state width="1852" height="279" key="GridCell.Tab.0.bottom" timestamp="1606121317184">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
-    <state width="1236" height="272" key="GridCell.Tab.0.center" timestamp="1605908962207">
-      <screen x="1366" y="0" width="1280" height="1024" />
+    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606121317184" />
+    <state width="1852" height="279" key="GridCell.Tab.0.center" timestamp="1606121317184">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
-    <state width="1236" height="272" key="GridCell.Tab.0.left" timestamp="1605908962206">
-      <screen x="1366" y="0" width="1280" height="1024" />
+    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606121317184" />
+    <state width="1852" height="279" key="GridCell.Tab.0.left" timestamp="1606121317184">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962206" />
-    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077291" />
-    <state width="1236" height="272" key="GridCell.Tab.0.right" timestamp="1605908962207">
-      <screen x="1366" y="0" width="1280" height="1024" />
+    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606121317184" />
+    <state width="1852" height="279" key="GridCell.Tab.0.right" timestamp="1606121317184">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
+    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606121317184" />
     <state width="1852" height="344" key="GridCell.Tab.1.bottom" timestamp="1605787071033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -624,6 +629,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1852" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
+    <state x="180" y="86" key="MergeDialog" timestamp="1606121178708">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="180" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606121178708" />
     <state x="184" y="15" key="SettingsEditor" timestamp="1605901481462">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -655,12 +664,16 @@
     </state>
     <state x="260" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901546023" />
     <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605790815269" />
-    <state x="1769" y="240" width="672" height="667" key="run.anything.popup" timestamp="1605908594557">
-      <screen x="1366" y="0" width="1280" height="1024" />
+    <state x="735" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1606121174293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="735" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606121174293" />
+    <state x="604" y="244" width="672" height="677" key="run.anything.popup" timestamp="1606121216984">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="430" y="180" width="672" height="500" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605902579034" />
     <state x="1769" y="240" width="672" height="667" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908594557" />
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605774914952" />
+    <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606121216984" />
     <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1605907248113">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>

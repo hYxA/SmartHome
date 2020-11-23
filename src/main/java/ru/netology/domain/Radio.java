@@ -5,10 +5,9 @@ public class Radio {
     private int currentStation;     // Номер текущей (прослушиваемой) радиостанции
     private int maxStation = 9;     // Максимальный номер радиостанции
     private int minStation = 0;     // Минимальный номер радиостанции
-    private int currentVolume;            // Громкость звука
-    private int maxVolume = 10;         // Максимальная громкость звука
-    private int minVolume = 0;         // Минимальная громкость звука
-    int difference;
+    private int currentVolume;      // Громкость звука
+    private int maxVolume = 10;     // Максимальная громкость звука
+    private int minVolume = 0;      // Минимальная громкость звука
 
 
     public int getMaxVolume() {
@@ -47,32 +46,26 @@ public class Radio {
     /**
      * Переключение на следущую радиостанцию
      */
-    public int setNextStation() {
-        difference = currentStation;
-        if (Radio.this.currentStation == maxStation) {      // Круговая зависимость. После 9 будет номер 0
-            Radio.this.currentStation = 0;
-            return 1;
-        } else {
-        currentStation += 1;
-        difference = currentStation - difference;
+    public void setNextStation() {
+        if (currentStation == maxStation) {      // Круговая зависимость. После 9 будет номер 0
+            currentStation = 0;
+            return;
         }
-        return difference;
+        currentStation += 1;
 
     }
 
     /**
      * Переключение на предыдущую радиостанцию
      */
-    public int setPrevStation() {
-        difference = currentStation;
-        if (Radio.this.currentStation == minStation) {      // Круговая зависимость. После 0 будет номер 9
-            Radio.this.currentStation = 9;
-            return 1;
-        } else {
-        currentStation -= 1;
-        difference = difference - currentStation;
+    public void setPrevStation() {
+        if (currentStation == minStation) {      // Круговая зависимость. После 9 будет номер 0
+            currentStation = 9;
+            return;
         }
-        return difference;
+        currentStation -= 1;
+
+
     }
 
     public int getMaxStation() {
@@ -98,44 +91,35 @@ public class Radio {
     /**
      * Увеличение громкости на единицу
      */
-    public int setIncreaseVolume() {
+    public void setIncreaseVolume() {
 
         if (currentVolume == maxVolume) {
-            return 0;
+            return;
         }
 
-        difference = currentVolume;
         currentVolume += 1;
-        difference = currentVolume - difference;
-
-        return difference;
     }
 
     /**
      * Уменьшение громкости на единицу
      */
-    public int setDecreaseVolume() {
+    public void setDecreaseVolume() {
 
         if (currentVolume == minVolume) {
-            return 0;
+            return;
         }
 
-        difference = currentVolume;
         currentVolume -= 1;
-        difference = difference - currentVolume;
-
-        return difference;
     }
 
     /**
      * Установка громкости
-     *
      * Только для упрощения тестов!
      * Пользователю недоступно!
      */
     public void setVolume(int currentVolume) {
 
-        if (currentVolume < minStation) {
+        if (currentVolume < minVolume) {
             return;
         }
         if (currentVolume > maxVolume) {
