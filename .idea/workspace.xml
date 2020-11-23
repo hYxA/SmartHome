@@ -23,13 +23,14 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Radio" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Ciclomatic" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Radio" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.RadioTest.shouldSetNextStationAfterNine" />
         <item itemvalue="JUnit.RadioTest.shouldSetPrevStation" />
-        <item itemvalue="JUnit.ConditionTest" />
+        <item itemvalue="JUnit.RadioTest.shouldSetNextStationAfterNine" />
         <item itemvalue="JUnit.RadioTest.shouldNOTSetCurrentStationMoreThanMax" />
+        <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.ConditionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -504,28 +505,7 @@
       <option name="project" value="LOCAL" />
       <updated>1605908565104</updated>
     </task>
-    <task id="LOCAL-00044" summary="remove excess value">
-      <created>1606121273528</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1606121273528</updated>
-    </task>
-    <task id="LOCAL-00045" summary="update RadioTest.java">
-      <created>1606125402640</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1606125402640</updated>
-    </task>
-    <task id="LOCAL-00046" summary="update Radio.java">
-      <created>1606125488521</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1606125488521</updated>
-    </task>
-    <option name="localTasksCounter" value="47" />
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +519,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Radio" />
+                        <option value="Ciclomatic" />
                       </list>
                     </value>
                   </entry>
@@ -553,6 +533,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="added README.md" />
+    <MESSAGE value="COVEREDRATIO 37%" />
+    <MESSAGE value="tests ready" />
     <MESSAGE value="tests ready 2" />
     <MESSAGE value="added test shouldSetMaxTemperature" />
     <MESSAGE value="added test shouldSetMinTemperature" />
@@ -575,10 +558,7 @@
     <MESSAGE value="added setVolume" />
     <MESSAGE value="tests NOT increase/decrease volume" />
     <MESSAGE value="update setVolume" />
-    <MESSAGE value="remove excess value" />
-    <MESSAGE value="update RadioTest.java" />
-    <MESSAGE value="update Radio.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Radio.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update setVolume" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
@@ -605,26 +585,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1852" height="279" key="GridCell.Tab.0.bottom" timestamp="1606125429982">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1236" height="272" key="GridCell.Tab.0.bottom" timestamp="1605908962207">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606125429982" />
-    <state width="1852" height="279" key="GridCell.Tab.0.center" timestamp="1606125429982">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
+    <state width="1236" height="272" key="GridCell.Tab.0.center" timestamp="1605908962207">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606125429982" />
-    <state width="1852" height="279" key="GridCell.Tab.0.left" timestamp="1606125429982">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
+    <state width="1236" height="272" key="GridCell.Tab.0.left" timestamp="1605908962206">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962206" />
-    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606125429982" />
-    <state width="1852" height="279" key="GridCell.Tab.0.right" timestamp="1606125429982">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077291" />
+    <state width="1236" height="272" key="GridCell.Tab.0.right" timestamp="1605908962207">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state width="1236" height="272" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606125429982" />
+    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
     <state width="1852" height="344" key="GridCell.Tab.1.bottom" timestamp="1605787071033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -641,10 +621,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1852" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
-    <state x="180" y="86" key="MergeDialog" timestamp="1606121178708">
+    <state x="180" y="86" key="MergeDialog" timestamp="1606126712151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="180" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606121178708" />
+    <state x="180" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606126712151" />
     <state x="184" y="15" key="SettingsEditor" timestamp="1605901481462">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -676,20 +656,16 @@
     </state>
     <state x="260" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901546023" />
     <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605790815269" />
-    <state x="735" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1606121174293">
+    <state x="735" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1606126707708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="735" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606121174293" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1606125753806">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606125753806" />
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup" timestamp="1606125222409">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="735" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606126707708" />
+    <state x="1769" y="240" width="672" height="667" key="run.anything.popup" timestamp="1605908594557">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state x="430" y="180" width="672" height="500" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605902579034" />
     <state x="1769" y="240" width="672" height="667" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908594557" />
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606125222409" />
+    <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605774914952" />
     <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1605907248113">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
