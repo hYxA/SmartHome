@@ -6,7 +6,7 @@ public class Conditioner {
     private int minTemperature = 16;
     private int currentTemperature;
     private boolean on;
-    private int oldTemperature;
+    int oldTemperature;
     int difference;
 
    // Condition condition = new Condition();
@@ -39,13 +39,8 @@ public class Conditioner {
         return currentTemperature;
     }
 
-    public int getOldTemperature() {
-        return oldTemperature;
-    }
-
 
     public void setCurrentTemperature(int currentTemperature) {
-        Conditioner conditioner = new Conditioner();
 
         if (currentTemperature > maxTemperature) {
             return;
@@ -66,7 +61,6 @@ public class Conditioner {
     }
 
     public int increaseCurrentTemperature() {
-        Conditioner conditioner = new Conditioner();
 
         if (currentTemperature == maxTemperature) {
             return difference = 0;
@@ -80,7 +74,6 @@ public class Conditioner {
     }
 
     public int decreaseCurrentTemperature() {
-        Conditioner conditioner = new Conditioner();
 
         if (currentTemperature == minTemperature) {
             return difference = 0;
