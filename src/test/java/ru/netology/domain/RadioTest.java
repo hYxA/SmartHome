@@ -57,7 +57,7 @@ class RadioTest {
      */
     @Test
     public void shouldSetCurrentStationLowerLimit() {
-        expectedStation = 0;
+        expectedStation = radio.getMinStation();
 
         radio.setCurrentStation(expectedStation);
 
@@ -69,7 +69,7 @@ class RadioTest {
      */
     @Test
     public void shouldSetCurrentStationUpperLimit() {
-        expectedStation = 9;
+        expectedStation = radio.getMaxStation();
 
         radio.setCurrentStation(expectedStation);
 

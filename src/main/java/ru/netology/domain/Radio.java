@@ -48,7 +48,7 @@ public class Radio {
      */
     public void setNextStation() {
         if (currentStation == maxStation) {      // Круговая зависимость. После 9 будет номер 0
-            currentStation = 0;
+            currentStation = minStation;
             return;
         }
         currentStation += 1;
@@ -60,7 +60,7 @@ public class Radio {
      */
     public void setPrevStation() {
         if (currentStation == minStation) {      // Круговая зависимость. После 9 будет номер 0
-            currentStation = 9;
+            currentStation = maxStation;
             return;
         }
         currentStation -= 1;
