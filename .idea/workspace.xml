@@ -31,8 +31,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,11 +54,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="vmOptionsForImporter" value="-Xmx768m" />
@@ -103,6 +96,7 @@
     <option name="myCommands">
       <command value="mvn verify" />
       <command value="mvn clean verify" />
+      <command value="mvn clean compile" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.ConditionerTest">
@@ -195,7 +189,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -563,116 +557,13 @@
     <MESSAGE value="update setVolume" />
     <option name="LAST_COMMIT_MESSAGE" value="update setVolume" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="548" y="178" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1605704320411" />
-    <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1605775767355">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605775767355" />
-    <state x="739" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605688914019">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1605688914019" />
-    <state x="637" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605620382801">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="637" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605620382801" />
-    <state x="678" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605620297646">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="678" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605620297646" />
-    <state x="409" y="419" key="#xdebugger.evaluate" timestamp="1605532828723">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1236" height="272" key="GridCell.Tab.0.bottom" timestamp="1605908962207">
-      <screen x="1366" y="0" width="1280" height="1024" />
-    </state>
-    <state width="1236" height="272" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
-    <state width="1236" height="272" key="GridCell.Tab.0.center" timestamp="1605908962207">
-      <screen x="1366" y="0" width="1280" height="1024" />
-    </state>
-    <state width="1236" height="272" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
-    <state width="1236" height="272" key="GridCell.Tab.0.left" timestamp="1605908962206">
-      <screen x="1366" y="0" width="1280" height="1024" />
-    </state>
-    <state width="1236" height="272" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962206" />
-    <state width="1852" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077291" />
-    <state width="1236" height="272" key="GridCell.Tab.0.right" timestamp="1605908962207">
-      <screen x="1366" y="0" width="1280" height="1024" />
-    </state>
-    <state width="1236" height="272" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908962207" />
-    <state width="1852" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605787077292" />
-    <state width="1852" height="344" key="GridCell.Tab.1.bottom" timestamp="1605787071033">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
-    <state width="1852" height="344" key="GridCell.Tab.1.center" timestamp="1605787071033">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
-    <state width="1852" height="344" key="GridCell.Tab.1.left" timestamp="1605787071033">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
-    <state width="1852" height="344" key="GridCell.Tab.1.right" timestamp="1605787071033">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605787071033" />
-    <state x="184" y="15" key="SettingsEditor" timestamp="1605901481462">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="184" y="15" key="SettingsEditor/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901481462" />
-    <state x="485" y="193" width="570" height="387" key="StructurePopup" timestamp="1605901177451">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="485" y="193" width="570" height="387" key="StructurePopup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901177451" />
-    <state x="681" y="261" width="570" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605530281157" />
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1605775525250">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605775525250" />
-    <state x="771" y="301" key="chooseDestDirectoryDialog" timestamp="1605688911201">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="771" y="301" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605688911201" />
-    <state x="394" y="99" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605902576134">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="394" y="99" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605902576134" />
-    <state x="554" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605700924631" />
-    <state x="600" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605605041731">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="600" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605605041731" />
-    <state x="260" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605901546023">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="260" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605901546023" />
-    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605790815269" />
-    <state x="1769" y="240" width="672" height="667" key="run.anything.popup" timestamp="1605908594557">
-      <screen x="1366" y="0" width="1280" height="1024" />
-    </state>
-    <state x="430" y="180" width="672" height="500" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1605902579034" />
-    <state x="1769" y="240" width="672" height="667" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605908594557" />
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605774914952" />
-    <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1605907248113">
-      <screen x="1366" y="0" width="1280" height="1024" />
-    </state>
-    <state x="1669" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1605907248113" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
           <line>48</line>
-          <properties class="ru.netology.domain.ConditionTest" method="shouldIncreaseCurrentTemperature">
+          <properties class="ru.netology.domain.ConditionTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="23" />
