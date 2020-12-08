@@ -6,8 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 class ConditionTest {
-    int expectedTemperature = 25;
+    int expectedTemperature;
     Condition condition = new Condition();
+    int expectDifference;
 
 
     @Test
@@ -26,8 +27,8 @@ class ConditionTest {
     @Test
     public void shouldChangeField() {
 
-        assertEquals(expectedTemperature, condition.getCurrentTemperature());
-        condition.setCurrentTemperature(26);
+        expectedTemperature = 26;
+        condition.setCurrentTemperature(expectedTemperature);
         assertEquals(26, condition.getCurrentTemperature());
 
         System.out.println("Hi!");
@@ -35,30 +36,45 @@ class ConditionTest {
 
 
     @Test
-    public void shouldNotChangeField() {
+    public void shouldNotSetCurrentTemperatureLessThanMin() {
 
-        assertEquals(expectedTemperature, condition.getCurrentTemperature());
+        expectedTemperature = condition.getCurrentTemperature();
         condition.setCurrentTemperature(0);
         assertEquals(expectedTemperature, condition.getCurrentTemperature());
+    }
 
-        System.out.println("Hi!");
+    @Test
+    public void shouldNotSetCurrentTemperatureMoreThanMax() {
+
+        expectedTemperature = condition.getCurrentTemperature();
+        condition.setCurrentTemperature(50);
+        assertEquals(expectedTemperature, condition.getCurrentTemperature());
     }
 
 
     @Test
     public void shouldIncreaseCurrentTemperature() {
+        condition.setCurrentTemperature(24);
 
-        int expectDifference = 1;
+        expectDifference = 1;
         condition.increaseCurrentTemperature();
         assertEquals(expectDifference, condition.difference);
     }
 
-
     @Test
     public void shouldNotIncreaseCurrentTemperature() {
-        condition.setCurrentTemperature(40);
-        int expectDifference = 0;
 
+        int expectDifference = 0;
+        condition.setCurrentTemperature(condition.getMaxTemperature());
+        condition.increaseCurrentTemperature();
+        assertEquals(expectDifference, condition.difference);
+    }
+
+    @Test
+    public void shouldNotDecreaseCurrentTemperature() {
+
+        expectDifference = 0;
+        condition.setCurrentTemperature(condition.getMinTemperature());
         condition.decreaseCurrentTemperature();
         assertEquals(expectDifference, condition.difference);
     }
@@ -67,16 +83,7 @@ class ConditionTest {
     @Test
     public void shouldDecreaseCurrentTemperature() {
 
-        int expectDifference = 0;
-        condition.decreaseCurrentTemperature();
-        assertEquals(expectDifference, condition.difference);
-    }
-
-    @Test
-    public void shouldNotDecreaseCurrentTemperature() {
-        condition.setCurrentTemperature(16);
-        int expectDifference = 0;
-
+        int expectDifference = 1;
         condition.decreaseCurrentTemperature();
         assertEquals(expectDifference, condition.difference);
     }
@@ -95,13 +102,5 @@ class ConditionTest {
 
     }
 
-    @Test
-    public void shouldNotSetCurrentTemperature() {
 
-        condition.setCurrentTemperature(40);
-        assertEquals(expectedTemperature, condition.getCurrentTemperature());
-
-        condition.setCurrentTemperature(10);
-        assertEquals(expectedTemperature, condition.getCurrentTemperature());
-    }
 }

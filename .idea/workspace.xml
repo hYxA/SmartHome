@@ -32,9 +32,7 @@
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionTest.shouldIncreaseCurrentTemperature">
+  <component name="RunManager" selected="JUnit.ConditionTest">
     <configuration name="ConditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -167,7 +165,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionTest.shouldNotIncreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionTest.shouldNotIncreaseCurrentTemperatureMoreThanMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
         <pattern>
@@ -177,7 +175,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
-      <option name="METHOD_NAME" value="shouldNotIncreaseCurrentTemperature" />
+      <option name="METHOD_NAME" value="shouldNotIncreaseCurrentTemperatureMoreThanMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConditionTest.shouldIncreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest" />
+        <item itemvalue="JUnit.ConditionTest.shouldNotIncreaseCurrentTemperatureMoreThanMax" />
+        <item itemvalue="JUnit.ConditionTest.shouldIncreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest.shouldChangeField" />
         <item itemvalue="JUnit.ConditionTest.shouldNotChangeField" />
-        <item itemvalue="JUnit.ConditionTest.shouldNotIncreaseCurrentTemperature" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607428942601</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="remark">
+      <created>1607432813884</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1607432813884</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,7 +560,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="tests ready 2" />
     <MESSAGE value="added test shouldSetMaxTemperature" />
     <MESSAGE value="added test shouldSetMinTemperature" />
     <MESSAGE value="added test shouldNotSetCurrentTemperature" />
@@ -580,7 +584,8 @@
     <MESSAGE value="added setCountStation" />
     <MESSAGE value="update pom.xml" />
     <MESSAGE value="correct a little bit all tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct a little bit all tests" />
+    <MESSAGE value="remark" />
+    <option name="LAST_COMMIT_MESSAGE" value="remark" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,32 +605,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>40</line>
+          <line>41</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>51</line>
+          <line>52</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
-          <line>65</line>
+          <line>64</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
