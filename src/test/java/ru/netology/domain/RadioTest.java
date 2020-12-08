@@ -8,7 +8,19 @@ class RadioTest {
 
     Radio radio = new Radio();
     int expectedStation;
+    int expectedMaxStation;
 
+    /**
+     * Тест на установку количества  станций
+     */
+    @Test
+    public void shouldSetCountStation() {
+        expectedMaxStation = 10;
+
+        radio.setMaxStation(expectedMaxStation);
+
+        assertEquals(expectedMaxStation, radio.getMaxStation());
+    }
 
     /**
      * Тест на обычную установку станции с цифровых кнопок
@@ -107,7 +119,7 @@ class RadioTest {
      */
     @Test
     public void shouldSetPrevStationAfterZero() {
-        expectedStation = 9;
+        expectedStation = radio.getMaxStation();
         radio.setCurrentStation(0);
         radio.setPrevStation();
 
@@ -119,9 +131,9 @@ class RadioTest {
      * по циклической зависимости 9-0
      */
     @Test
-    public void shouldSetNextStationAfterNine() {
-        expectedStation = 0;
-        radio.setCurrentStation(9);
+    public void shouldSetNextStationAfterMax() {
+        expectedStation = radio.getMinStation();
+        radio.setCurrentStation(radio.getMaxStation());
         radio.setNextStation();
 
         assertEquals(expectedStation, radio.getCurrentStation());

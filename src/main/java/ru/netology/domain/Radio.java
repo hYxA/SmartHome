@@ -3,7 +3,7 @@ package ru.netology.domain;
 public class Radio {
 
     private int currentStation;     // Номер текущей (прослушиваемой) радиостанции
-    private int maxStation;     // Максимальный номер радиостанции
+    private int maxStation = 10;    // Максимальный номер радиостанции
     private int minStation = 0;     // Минимальный номер радиостанции
     private int currentVolume;      // Громкость звука
     private int maxVolume = 10;     // Максимальная громкость звука
