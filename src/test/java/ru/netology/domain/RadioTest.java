@@ -7,19 +7,28 @@ import static org.junit.jupiter.api.Assertions.*;
 class RadioTest {
 
     Radio radio = new Radio();
+    int expectedVolume;
     int expectedStation;
-    int expectedMaxStation;
 
     /**
      * Тест на установку количества  станций
      */
     @Test
     public void shouldSetCountStation() {
-        expectedMaxStation = 10;
+        expectedStation = 10;
 
-        radio.setMaxStation(expectedMaxStation);
+        radio.setCountStation(expectedStation);
 
-        assertEquals(expectedMaxStation, radio.getMaxStation());
+        assertEquals(expectedStation, radio.getMaxStation());
+    }
+
+    @Test
+    public void shouldNOTSetCountStation() {
+        expectedStation = radio.getMaxStation();
+
+        radio.setCountStation(-5);
+
+        assertEquals(expectedStation, radio.getMaxStation());
     }
 
     /**
@@ -144,8 +153,9 @@ class RadioTest {
      */
     @Test
     public void shouldSetIncreaseVolume() {
-        int expectedVolume = 6;
-        radio.setVolume(5);
+        radio.setVolume(20);         // установка числа между min и max градусов
+
+        expectedVolume = radio.getCurrentVolume() + 1;
         radio.setIncreaseVolume();
 
         assertEquals(expectedVolume, radio.getCurrentVolume());
@@ -156,8 +166,9 @@ class RadioTest {
      */
     @Test
     public void shouldSetDecreaseVolume() {
-        int expectedVolume = 4;
-        radio.setVolume(5);
+        radio.setVolume(20);         // установка числа между min и max градусов
+
+        expectedVolume = radio.getCurrentVolume() - 1;
         radio.setDecreaseVolume();
 
         assertEquals(expectedVolume, radio.getCurrentVolume());
@@ -168,9 +179,9 @@ class RadioTest {
      * при максимальном значении
      */
     @Test
-    public void shouldNOTSetIncreaseVolume() {
-        int expectedVolume = 10;
-        radio.setVolume(10);
+    public void shouldNOTSetIncreaseVolumeMoreThanMax() {
+        expectedVolume = radio.getMaxVolume();
+        radio.setVolume(radio.getMaxVolume());
         radio.setIncreaseVolume();
 
         assertEquals(expectedVolume, radio.getCurrentVolume());
@@ -181,9 +192,9 @@ class RadioTest {
      * при минимальном значении
      */
     @Test
-    public void shouldNOTSetDecreaseVolume() {
-        int expectedVolume = 0;
-        radio.setVolume(0);
+    public void shouldNOTSetDecreaseVolumeLessThanMin() {
+        expectedVolume = radio.getMinVolume();
+        radio.setVolume(radio.getMinVolume());
         radio.setDecreaseVolume();
 
         assertEquals(expectedVolume, radio.getCurrentVolume());
@@ -194,20 +205,21 @@ class RadioTest {
      */
     @Test
     public void shouldNotSetVolumeMoreThanMax() {
-        int expectedVolume = radio.getCurrentVolume();
-        radio.setVolume(50);
+        expectedVolume = radio.getCurrentVolume();
+        radio.setVolume(radio.getMaxVolume()+50);
 
         assertEquals(expectedVolume, radio.getCurrentVolume());
     }
 
-    /**
+     /**
      * Проверка установки громкости ниже минимальновозможного значения
      */
     @Test
     public void shouldNotSetVolumeLessThanMin() {
-        int expectedVolume = radio.getCurrentVolume();
+        expectedVolume = radio.getCurrentVolume();
         radio.setVolume(-50);
 
         assertEquals(expectedVolume, radio.getCurrentVolume());
     }
+
 }

@@ -6,7 +6,7 @@ public class Radio {
     private int maxStation = 10;    // Максимальный номер радиостанции
     private int minStation = 0;     // Минимальный номер радиостанции
     private int currentVolume;      // Громкость звука
-    private int maxVolume = 10;     // Максимальная громкость звука
+    private int maxVolume = 100;     // Максимальная громкость звука
     private int minVolume = 0;      // Минимальная громкость звука
 
 
