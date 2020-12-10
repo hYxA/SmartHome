@@ -30,7 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Radio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +79,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ru/netology/domain" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -100,6 +106,7 @@
       <command value="mvn verify" />
       <command value="mvn clean compile" />
       <command value="mvn clean verify" />
+      <command value="mvn compile" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.ConditionTest">
@@ -539,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607433621311</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="addded lombok to pom.xml">
+      <created>1607586595292</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1607586595292</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,8 +581,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added test shouldSetMinTemperature" />
-    <MESSAGE value="added test shouldNotSetCurrentTemperature" />
     <MESSAGE value="added test shouldNotDecreaseCurrentTemperature" />
     <MESSAGE value="added test shouldNotIncreaseCurrentTemperature" />
     <MESSAGE value="end for 18.11." />
@@ -592,7 +604,9 @@
     <MESSAGE value="correct a little bit all tests" />
     <MESSAGE value="remark" />
     <MESSAGE value="big update" />
-    <option name="LAST_COMMIT_MESSAGE" value="big update" />
+    <MESSAGE value="addded lombok to pom.xml" />
+    <MESSAGE value="update data-classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="update data-classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -611,18 +625,8 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
-          <line>64</line>
+          <line>61</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>

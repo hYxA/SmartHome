@@ -1,5 +1,13 @@
 package ru.netology.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+
 public class Condition {
     private String name;
     private int maxTemperature = 32;
@@ -9,35 +17,9 @@ public class Condition {
     private int oldTemperature;
     int difference;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getMaxTemperature() {
-        return maxTemperature;
-    }
-
-    public void setMaxTemperature(int maxTemperature) {
-        this.maxTemperature = maxTemperature;
-    }
-
-    public int getMinTemperature() {
-        return minTemperature;
-    }
-
-    public void setMinTemperature(int minTemperature) { this.minTemperature = minTemperature; }
-
-    public int getCurrentTemperature() { return currentTemperature; }
-
-    public int getOldTemperature() {
-        return oldTemperature;
-    }
-
-
+    /**
+     * Установка текущей температуры
+     */
     public void setCurrentTemperature(int currentTemperature) {
         if (currentTemperature > maxTemperature) {
             return;
@@ -49,14 +31,9 @@ public class Condition {
         this.currentTemperature = currentTemperature;
     }
 
-    public boolean isOn() {
-        return on;
-    }
-
-    public void setOn(boolean on) {
-        this.on = on;
-    }
-
+    /**
+     * Увеличение температуры на единицу
+     */
     public int increaseCurrentTemperature() {
         if (currentTemperature == maxTemperature) {
             return difference = 0;
@@ -66,9 +43,11 @@ public class Condition {
         currentTemperature += 1;
         difference = currentTemperature - oldTemperature;
         return difference;
-
     }
 
+    /**
+     * Уменьшение температуры на единицу
+     */
     public int decreaseCurrentTemperature() {
         if (currentTemperature == minTemperature) {
             return difference = 0;
