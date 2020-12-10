@@ -9,12 +9,29 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Radio" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,16 +50,16 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="d6962eee249c51a538af55e733a610d411c07159" />
+        <entry key="$PROJECT_DIR$" value="Radio" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\ПКТ\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\202.7660.26\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1kMvtDEAjm80eBGDIAeTVtzbBhv" />
@@ -53,14 +70,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ru/netology/domain" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="ru.netology.domain" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ПКТ\IdeaProjects\SmartHome" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -68,20 +87,21 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.netology.domain" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.netology.domain" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ПКТ\IdeaProjects\SmartHome" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.netology.domain" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn verify" />
+      <command value="mvn clean compile" />
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionTest.shouldDecreaseCurrentTemperature">
+  <component name="RunManager" selected="JUnit.ConditionTest">
     <configuration name="ConditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
@@ -97,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionTest.shouldDecreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionTest.shouldChangeField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +127,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
-      <option name="METHOD_NAME" value="shouldDecreaseCurrentTemperature" />
+      <option name="METHOD_NAME" value="shouldChangeField" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionTest.shouldNotDecreaseCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionTest.shouldNotChangeField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
         <pattern>
@@ -139,13 +159,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
-      <option name="METHOD_NAME" value="shouldNotDecreaseCurrentTemperature" />
+      <option name="METHOD_NAME" value="shouldNotChangeField" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionTest.shouldNotSetCurrentTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionTest.shouldNotIncreaseCurrentTemperatureMoreThanMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartHome" />
       <extension name="coverage">
         <pattern>
@@ -155,7 +175,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.domain" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.domain.ConditionTest" />
-      <option name="METHOD_NAME" value="shouldNotSetCurrentTemperature" />
+      <option name="METHOD_NAME" value="shouldNotIncreaseCurrentTemperatureMoreThanMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,15 +183,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConditionTest.shouldDecreaseCurrentTemperature" />
         <item itemvalue="JUnit.ConditionTest" />
-        <item itemvalue="JUnit.ConditionTest.shouldNotSetCurrentTemperature" />
-        <item itemvalue="JUnit.ConditionTest.shouldNotDecreaseCurrentTemperature" />
+        <item itemvalue="JUnit.ConditionTest.shouldNotIncreaseCurrentTemperatureMoreThanMax" />
         <item itemvalue="JUnit.ConditionTest.shouldIncreaseCurrentTemperature" />
+        <item itemvalue="JUnit.ConditionTest.shouldChangeField" />
+        <item itemvalue="JUnit.ConditionTest.shouldNotChangeField" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1acbfd1e-67ff-4cdb-9ac3-856835164d58" name="Default Changelist" comment="" />
@@ -369,7 +392,147 @@
       <option name="project" value="LOCAL" />
       <updated>1605772314492</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update ConditionTest.java">
+      <created>1605772792125</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1605772792125</updated>
+    </task>
+    <task id="LOCAL-00029" summary="create Radio.java">
+      <created>1605773729879</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1605773729879</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added getters and setters">
+      <created>1605775449840</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1605775449840</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update Condition">
+      <created>1605785593057</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1605785593057</updated>
+    </task>
+    <task id="LOCAL-00032" summary="create RadioTest.java">
+      <created>1605790843903</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1605790843903</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added increase and decrease methods">
+      <created>1605901165544</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1605901165544</updated>
+    </task>
+    <task id="LOCAL-00034" summary="added RadioTest.java">
+      <created>1605901660318</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1605901660318</updated>
+    </task>
+    <task id="LOCAL-00035" summary="added logic to Radio.java">
+      <created>1605903727470</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1605903727470</updated>
+    </task>
+    <task id="LOCAL-00036" summary="break">
+      <created>1605904455720</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1605904455720</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added tests set prev, next and after 9-0">
+      <created>1605906676441</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1605906676441</updated>
+    </task>
+    <task id="LOCAL-00038" summary="added JavaDoc comments">
+      <created>1605907258840</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1605907258840</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added tests increase/decrease volume">
+      <created>1605907989708</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1605907989708</updated>
+    </task>
+    <task id="LOCAL-00040" summary="added setVolume">
+      <created>1605908308976</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1605908308976</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update setVolume">
+      <created>1605908366991</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1605908366991</updated>
+    </task>
+    <task id="LOCAL-00042" summary="tests NOT increase/decrease volume">
+      <created>1605908518663</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1605908518663</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update setVolume">
+      <created>1605908565104</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1605908565104</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added setCountStation">
+      <created>1607428170938</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1607428170938</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update pom.xml">
+      <created>1607428182795</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1607428182795</updated>
+    </task>
+    <task id="LOCAL-00046" summary="correct a little bit all tests">
+      <created>1607428942601</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1607428942601</updated>
+    </task>
+    <task id="LOCAL-00047" summary="remark">
+      <created>1607432813884</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1607432813884</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,7 +540,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Radio" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -385,24 +560,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create conditioner and ConditionerTest" />
-    <MESSAGE value="вшыфидув" />
-    <MESSAGE value="shouldChangeField" />
-    <MESSAGE value="unmarked" />
-    <MESSAGE value="add ConditionerAdvanced" />
-    <MESSAGE value="add Getters and Setters" />
-    <MESSAGE value="add ConditionerAdvancedTest" />
-    <MESSAGE value="shuldChangeField at ConditionerAdvancedTest" />
-    <MESSAGE value="end lesson" />
-    <MESSAGE value="refactor .gitignore" />
-    <MESSAGE value="update pom.xml" />
-    <MESSAGE value="add new tests" />
-    <MESSAGE value="update ConditionTest" />
-    <MESSAGE value="added increase and decrease" />
-    <MESSAGE value="added README.md" />
-    <MESSAGE value="COVEREDRATIO 37%" />
-    <MESSAGE value="tests ready" />
-    <MESSAGE value="tests ready 2" />
     <MESSAGE value="added test shouldSetMaxTemperature" />
     <MESSAGE value="added test shouldSetMinTemperature" />
     <MESSAGE value="added test shouldNotSetCurrentTemperature" />
@@ -410,119 +567,56 @@
     <MESSAGE value="added test shouldNotIncreaseCurrentTemperature" />
     <MESSAGE value="end for 18.11." />
     <MESSAGE value="update ConditionTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ConditionTest.java" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="548" y="178" width="816" height="729" key="#Intentions" timestamp="1605704320411">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="548" y="178" width="816" height="729" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1605704320411" />
-    <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1605605397692">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="381" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605605397692" />
-    <state x="739" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605688914019">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1605688914019" />
-    <state x="637" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605620382801">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="637" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605620382801" />
-    <state x="678" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605620297646">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="678" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605620297646" />
-    <state x="409" y="419" key="#xdebugger.evaluate" timestamp="1605532828723">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="409" y="419" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1605532828723" />
-    <state width="1852" height="344" key="GridCell.Tab.0.bottom" timestamp="1605706822737">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605706822737" />
-    <state width="1852" height="344" key="GridCell.Tab.0.center" timestamp="1605706822737">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605706822737" />
-    <state width="1852" height="344" key="GridCell.Tab.0.left" timestamp="1605706822737">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605706822737" />
-    <state width="1852" height="344" key="GridCell.Tab.0.right" timestamp="1605706822737">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605706822737" />
-    <state width="1852" height="344" key="GridCell.Tab.1.bottom" timestamp="1605706822737">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605706822737" />
-    <state width="1852" height="344" key="GridCell.Tab.1.center" timestamp="1605706822737">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605706822737" />
-    <state width="1852" height="344" key="GridCell.Tab.1.left" timestamp="1605706822737">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605706822737" />
-    <state width="1852" height="344" key="GridCell.Tab.1.right" timestamp="1605706822737">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1852" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605706822737" />
-    <state x="681" y="261" width="570" height="524" key="StructurePopup" timestamp="1605530281157">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="681" y="261" width="570" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605530281157" />
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2" timestamp="1605706078659">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605706078659" />
-    <state x="771" y="301" key="chooseDestDirectoryDialog" timestamp="1605688911201">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="771" y="301" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605688911201" />
-    <state x="554" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605700924631">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="554" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605700924631" />
-    <state x="600" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605605041731">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="600" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605605041731" />
-    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605605051141">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="366" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605605051141" />
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup" timestamp="1605703334575">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="604" y="244" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605703334575" />
+    <MESSAGE value="create Radio.java" />
+    <MESSAGE value="added getters and setters" />
+    <MESSAGE value="update Condition" />
+    <MESSAGE value="create RadioTest.java" />
+    <MESSAGE value="added increase and decrease methods" />
+    <MESSAGE value="added RadioTest.java" />
+    <MESSAGE value="added logic to Radio.java" />
+    <MESSAGE value="break" />
+    <MESSAGE value="added tests set prev, next and after 9-0" />
+    <MESSAGE value="added JavaDoc comments" />
+    <MESSAGE value="added tests increase/decrease volume" />
+    <MESSAGE value="added setVolume" />
+    <MESSAGE value="tests NOT increase/decrease volume" />
+    <MESSAGE value="update setVolume" />
+    <MESSAGE value="added setCountStation" />
+    <MESSAGE value="update pom.xml" />
+    <MESSAGE value="correct a little bit all tests" />
+    <MESSAGE value="remark" />
+    <option name="LAST_COMMIT_MESSAGE" value="remark" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
-          <line>48</line>
-          <properties class="ru.netology.domain.ConditionTest" method="shouldIncreaseCurrentTemperature">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java</url>
+          <line>50</line>
+          <properties class="ru.netology.domain.RadioTest" method="shouldNOTSetCurrentStationMoreThanMax">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="23" />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/RadioTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/domain/ConditionTest.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/netology/domain/Condition.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="27" />
+          <line>64</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
